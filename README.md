@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.2.1**
+# **Organización de eventos**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED-BASE-2021](https://ecored-sena.github.io/ECORED-BASE-2021)
+[https://ecored-bogota-dc.github.io/CF3_623604_COMERCIALIZACION_DIGITAL_TURISMO/#/](https://ecored-bogota-dc.github.io/CF3_623604_COMERCIALIZACION_DIGITAL_TURISMO/#/)
 
 #
 

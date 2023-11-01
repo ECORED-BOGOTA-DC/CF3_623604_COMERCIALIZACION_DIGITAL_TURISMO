@@ -1,32 +1,57 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: float1 4.5s ease-in-out infinite alternate
     position: absolute
     top: 10%
     right: 81%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float2 2.8s ease-in-out infinite alternate
     position: absolute
     top: 20%
     right: 5%
   &-3
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: vanish 3.8s ease-in-out infinite alternate
     position: absolute
     top: 10%
-    left: -130%
+    left: -180%
+    @media (max-width: $bp-max-xl)
+      left: -200%
+    @media (max-width: $bp-max-lg)
+      left: -205%
   &-4
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float1 6.0s ease-in-out infinite alternate
     position: absolute
     top: 50%
-    left: -140%
-
+    left: -190%
+    @media (max-width: $bp-max-xl)
+      left: -210%
+    @media (max-width: $bp-max-lg)
+      left: -215%
 
 @keyframes float1
   0%
     transform: translateY(20px)
-
   100%
     transform: translateY(0px)
+  
+@keyframes float2
+  0%
+    transform: translateX(30px)
+  100%
+    transform: translateX(0px)
+  
+@keyframes vanish
+  0%
+    opacity: 0
+    transform: scale(1)
+  100%
+    opacity: 1
+    transform: scale(1.12)
+  
+.banner-principal__row .banner-principal__img
+  width: 33%
+
+
 .banner-principal__componente h1
   color: #12263F
 .banner-principal p
@@ -213,7 +238,7 @@
   border-radius: 15px
 .boton *, .boton--sm *
   color: white
-.slyder-a.mt-5.fon1.aq
+.slyder-a.fon1.aq
   .slyder-a__btn--sigt, .slyder-a__btn--atrs
 
   .slyder-a__bullets__item--active
@@ -221,13 +246,13 @@
     border-color:#EB6F2D
   .slyder-a__bullets__item
     background-color: #EFC7A9
-.slyder-a.mt-5.fon2.aq
+.slyder-a.fon2.aq
   .slyder-a__bullets__item--active
     background-color: #EB6F2D!important
     border-color:#EB6F2D
   .slyder-a__bullets__item
     background-color: #EFC7A9
-.slyder-a.mt-5.fon3.aq2
+.slyder-a.fon3.aq2
   .slyder-a__bullets__item--active
     background-color: #008BD2!important
     border-color:#008BD2
@@ -235,13 +260,13 @@
     background-color: #A4CCDF
 .c22
   background-color: #C2DBF1
-.slyder-a.mt-5.fon2.aq3
+.slyder-a.fon2.aq3
   .slyder-a__bullets__item--active
     background-color: #1B3F5E!important
     border-color:#1B3F5E
   .slyder-a__bullets__item
     background-color: #A3B6C5
-.slyder-a.mt-5.fon1.aq2
+.slyder-a.fon1.aq2
   .slyder-a__bullets__item--active
     background-color: #008BD2!important
     border-color:#008BD2
@@ -344,4 +369,29 @@
 .colorq
   background-color: #F3F9FF
 
+.tabla-b td, .tabla-c td, .tabla-b th, .tabla-c th
+  padding: 10px 20px
 
+.lista-ul li, ol.lista-ol li, .lista-ul--color li, .ol.lista-ol--cuadro li, .lista-ol--cuadro li, .lista-ul--separador li
+  display: flex
+
+.tabs-c.color-primario .tabs-c__tab--active
+  font-weight: 900
+
+.banner-interno__titulo__icono i
+  color: $white !important
+
+.banner-interno__titulo h2
+  color: $color-sistema-texto !important
+
+.banner-interno__titulo__icono
+  background-color: $color-sistema-texto !important
+
+.img-01
+  position: absolute
+  left: 105px
+  @media (max-width: $bp-max-xl)
+    left: 115px
+  @media (max-width: $bp-max-md)
+    position: relative
+    left: 0

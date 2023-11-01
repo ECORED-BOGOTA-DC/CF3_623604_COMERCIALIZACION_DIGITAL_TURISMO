@@ -1,21 +1,27 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5(data-aos="fade")
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+    
+    
     .row.justify-content-center
+      .col-12.d-xl-flex.d-none
+        <br><br><br>
       .col-lg-10.aqws
-        .row
-          .col-lg-2.mt-3
-            img(src="@/assets/curso/1.png", alt="alt")
-          .col-lg-10.mt-4
-            h4 Organización de eventos
-            p Los viajes que se producen en el mundo son realizados por diferentes motivaciones, necesidades e intereses; entre ellos se encuentra los eventos. Quienes viajan por este motivo, pagan por la temática y el contenido, pero además pagan por los servicios adicionales para disfrutar en su tiempo libre como transporte, actividades, visitas, compras, etc., y demás pagan por subsanar sus necesidades básicas de alimentación y alojamiento, así como las de diversión y esparcimiento donde buscan vivir experiencias inolvidables.  
+        .row.justify-content-center.align-items-end
+          .col-lg-2.col-4.img-01.px-xxl-4(data-aos="fade-right")
+            img(src="@/assets/curso/1.png", alt="Imagen decorativa")
+          .col-2.d-lg-flex.d-none
+          .col-lg-10(data-aos="fade-left")
+            .p-4
+              h4 Organización de eventos
+              p.mb-0 Los viajes que se producen en el mundo son realizados por diferentes motivaciones, necesidades e intereses; entre ellos se encuentra los eventos. Quienes viajan por este motivo, pagan por la temática y el contenido, pero además pagan por los servicios adicionales para disfrutar en su tiempo libre como transporte, actividades, visitas, compras, etc., y demás pagan por subsanar sus necesidades básicas de alimentación y alojamiento, así como las de diversión y esparcimiento donde buscan vivir experiencias inolvidables.  
 
     .row.justify-content-center.mt-5
-      .col-lg-10.mb-5
+      .col-lg-10.mb-5(data-aos="fade-right")
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="alt")
-      .col-auto
+          img(src="@/assets/curso/sintesis.svg", alt="Imagen decorativa")
+      .col-auto(data-aos="fade-left")
         a.anexo.mb-4(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
