@@ -193,6 +193,11 @@ export default {
         nombreRuta: 'referencias',
       },
       {
+        icono: 'fas fa-file-pdf',
+        titulo: 'Descargar PDF',
+        download: 'downloads/623604_CF03_DU.pdf',
+      },
+      {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
         download: 'downloads/material.zip',
@@ -207,42 +212,36 @@ export default {
   referencias: [
     {
       referencia:
-        'Andaluz, J. (2018). Análisis de la percepción de la comunidad local del Carnaval Internacional de Guaranda. Universidad de Especialidades Espíritu Santo. ',
+        'Andaluz, J. (2018). <em>Análisis de la percepción de la comunidad local del Carnaval Internacional de Guaranda</em>. Universidad de Especialidades Espíritu Santo. ',
       link:
         'https://1library.co/document/q5mxn77y-analisis-percepcion-comunidad-local-carnaval-internacional-guaranda.html ',
     },
     {
       referencia:
-        'Blog Fosbury. (2021). El <i>marketing</i> de eventos o cómo crear experiencias memorables. Fosbury Café. ',
-      link:
-        'https://eventosempresa.fosburycafe.es/ideasyconsejos/el-marketing-de-eventos-o-como-crear-experiencias-memorables/ ',
-    },
-    {
-      referencia:
-        'Cordero, L. (2016). La organización de eventos como herramienta de comunicación interna: Avon Cosmetics España [Trabajo fin de grado]. Universidad de Sevilla. ',
+        'Cordero, L. (2016). <em>La organización de eventos como herramienta de comunicación interna: Avon Cosmetics España</em> [Trabajo fin de grado]. Universidad de Sevilla. ',
       link:
         'https://idus.us.es/bitstream/handle/11441/48294/CorderoLopez_Lucia_TFG_2016.pdf;jsessionid=ABFB63C6E2C28861D02F3DD09AF9E830?sequence=1 ',
     },
 
     {
       referencia:
-        'González, F. y Morales, S. (2009). Ciudades efímeras: transformando el turismo urbano a través de la producción de eventos. Editorial UOC.',
+        'González, F. y Morales, S. (2009). <em>Ciudades efímeras: transformando el turismo urbano a través de la producción de eventos</em>. Editorial UOC.',
     },
     {
       referencia:
-        'Hazelton, J. (2020). <i>Marketing</i> experiencial – 4 ejemplos de marcas que acertaron. Eventtia. ',
+        'Hazelton, J. (2020). <em>Marketing experiencial - 4 ejemplos de marcas que acertaron</em>. Eventtia. ',
       link:
         'https://www.eventtia.com/es/blog/marketing-experiencial-4-ejemplos-de-marcas-que-acertaron ',
     },
     {
       referencia:
-        'Lojo, B. (2015). Turismo de Eventos: Clasificación, Evolución y Características. Impacto en las ciudades de Cartagena y Murcia. Universidad Politécnica de Cartagena. ',
+        'Lojo, B. (2015). <em>Turismo de Eventos: Clasificación, Evolución y Características. Impacto en las ciudades de Cartagena y Murcia</em>. Universidad Politécnica de Cartagena. ',
       link:
         'https://repositorio.upct.es/bitstream/handle/10317/4916/tfm495.pdf?sequence=1&isAllowed=y ',
     },
     {
       referencia:
-        'López, M. (2021). Recursos para la organización de actos. Protocolo.org. ',
+        'López, M. (2021). <em>Recursos para la organización de actos</em>. Protocolo.org. ',
       link:
         'https://www.protocolo.org/ceremonial/eventos/recursos-para-la-organizacion-de-actos.html',
     },
@@ -273,171 +272,184 @@ export default {
     {
       tema: 'Herramientas de <i>marketing</i> digital  ',
       referencia:
-        'Galmés, M. (2010). La organización de eventos como herramienta de comunicación de <i>marketing</i>. Modelo integrado y experiencial [Tesis doctoral]. Universidad de Málaga. ',
-      tipo: 'Tesis doctoral. ',
+        'Galmés, M. (2010). <em>La organización de eventos como herramienta de comunicación de marketing. Modelo integrado y experiencial</em> [Tesis doctoral]. Universidad de Málaga. ',
+      tipo: 'Tesis doctoral',
       link:
-        'https://dspace-libros.metabiblioteca.com.co/jspui/bitstream/001/356/5/978-84-9747-609-6.pdf ',
+        'https://libros.metabiblioteca.org/server/api/core/bitstreams/b1fca2ab-0902-4fa6-9ed8-d052df5cae4c/content',
     },
     {
       tema: 'Herramientas de innovación',
       referencia:
-        'Borges, A. (2013). La innovación en la organización de eventos. Compé, Revista Científica de Comunicación, Protocolo y Eventos, (1), p. 46-60. ',
+        'Borges, A. (2013). La innovación en la organización de eventos. <em>Compé, Revista Científica de Comunicación, Protocolo y Eventos</em>, (1), p. 46-60. ',
       tipo: 'Artículo',
       link:
         'https://silo.tips/download/la-innovacion-en-la-organizacion-de-eventos ',
     },
   ],
-  creditos: {
-    liderEquipo: [
-      {
-        nombre: 'Maria Camila Garcia Santamaria',
-        cargo: 'Líder del equipo',
-        centro: 'Dirección General',
-      },
-    ],
-    contenidoInstruccional: [
-      {
-        nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Asesor metodológico y pedagógico',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Fabio Alberto Ramírez',
-        cargo: 'Experto temático',
-        centro: 'Regional Tolima - Centro Comercio y Servicios',
-      },
-      {
-        nombre: 'Gloria Alexandra Orejarena Barrios',
-        cargo: 'Diseñadora instruccional',
-        centro: 'Regional Distrito Capital - Centro de Gestión Industrial',
-      },
-      {
-        nombre: 'Andrés Felipe Velandia Espitia',
-        cargo: 'Asesor metodológico',
-        centro: 'Regional Distrito Capital – Centro de Diseño y Metrología',
-      },
-      {
-        nombre: 'Darío González',
-        cargo: 'Corrector de estilo',
-        centro: 'Regional Distrito Capital – Centro de Diseño y Metrología',
-      },
-    ],
-    desarrolloProducto: [
-      {
-        nombre: 'Francisco José Lizcano Reyes',
-        cargo: 'Responsable del equipo',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Leyson Fabian Castaño Perez',
-        cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
-      {
-        nombre: ['Fabian Zarate'],
-        cargo: 'Diseño web',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Zuleidy María Ruíz Torres',
-        cargo: 'Revisión guion ',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
-      {
-        nombre: 'Sergio Mauricio Valencia Martinez',
-        cargo: 'Desarrollo Front-End',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Diego Fernando Velasco Güiza',
-        cargo: 'Desarrollador Fullstack',
-        centro:
-          'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
-      },
-      {
-        nombre: ['Wilson Andrés Arenales Cáceres'],
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Gilberto Junior Rodríguez Rodríguez ',
-        cargo: 'Validación audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'María Carolina Tamayo López',
-        cargo: 'Locución',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Estefani Daniela Gallo Cortés',
-        cargo: 'Ilustración',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Miguel Guerrero Gutiérrez ',
-        cargo: 'Ilustración',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Pedro Nel Calao Zabala',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Yuli Marcela Gómez Tarazona ',
-        cargo: 'Validación de diseño y contenido',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-    ],
-    gestoresRepositorio: [
-      {
-        nombre: 'Álvaro Andrés Angarita Ramirez',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
-      {
-        nombre: 'Daniel Felipe Varón Molina',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
-      {
-        nombre: 'Milady Tatiana Villamil Castellanos',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
-    ],
+  creditos: [
+    {
+      titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
+      autores: [
+        {
+          nombre: 'Claudia Patricia Aristizábal',
+          cargo: 'Líder del equipo',
+          centro: 'Dirección General',
+        },
+        {
+          nombre: 'Liliana Victoria Morales Gualdrón',
+          cargo: 'Responsable de línea de producción',
+          centro:
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
+        },
+      ],
+    },
+    {
+      titulo: 'CONTENIDO INSTRUCCIONAL',
+      autores: [
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Asesor metodológico y pedagógico',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Fabio Alberto Ramírez',
+          cargo: 'Experto temático',
+          centro: 'Regional Tolima - Centro Comercio y Servicios',
+        },
+        {
+          nombre: 'Gloria Alexandra Orejarena Barrios',
+          cargo: 'Diseñadora instruccional',
+          centro: 'Regional Distrito Capital - Centro de Gestión Industrial',
+        },
+        {
+          nombre: 'Andrés Felipe Velandia Espitia',
+          cargo: 'Asesor metodológico',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'Darío González',
+          cargo: 'Corrector de estilo',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+        },
+      ],
+    },
+    {
+      titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
+      autores: [
+        {
+          nombre: 'Francisco José Lizcano Reyes',
+          cargo: 'Responsable del equipo',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura ',
+        },
+        {
+          nombre: 'Leyson Fabian Castaño Perez',
+          cargo: 'Soporte organizacional',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Fabian Zarate',
+          cargo: 'Diseño web',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura ',
+        },
+        {
+          nombre: 'Zuleidy María Ruíz Torres',
+          cargo: 'Revisión guion ',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Sergio Mauricio Valencia Martinez',
+          cargo: 'Desarrollo Front-End',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura ',
+        },
+        {
+          nombre: 'Wilson Andrés Arenales Cáceres',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura ',
+        },
+        {
+          nombre: 'Gilberto Junior Rodríguez Rodríguez ',
+          cargo: 'Validación audiovisual',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura ',
+        },
+        {
+          nombre: 'María Carolina Tamayo López',
+          cargo: 'Locución',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura ',
+        },
+        {
+          nombre: 'Estefani Daniela Gallo Cortés',
+          cargo: 'Ilustración',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura ',
+        },
+        {
+          nombre: 'Miguel Guerrero Gutiérrez ',
+          cargo: 'Ilustración',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura ',
+        },
+        {
+          nombre: 'Pedro Nel Calao Zabala',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura ',
+        },
+        {
+          nombre: 'Yuli Marcela Gómez Tarazona ',
+          cargo: 'Validación de diseño y contenido',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura ',
+        },
+        {
+          nombre: 'Yuly Andrea Rey Quiñonez',
+          cargo: 'Diseñador web',
+          centro:
+            'Regional Distrito Capital - Centro de Gestión De Mercados, Logística y Tecnologías de la Información',
+        },
+        {
+          nombre: 'Diego Fernando Velasco Güiza',
+          cargo: 'Desarrollador Fullstack',
+          centro:
+            'Regional Distrito Capital - Centro de Gestión De Mercados, Logística y Tecnologías de la Información',
+        },
+      ],
+    },
+    {
+      titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
+      autores: [
+        {
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Evaluación de contenidos inclusivos y accesibles',
+          centro:
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
+        },
+        {
+          nombre: 'Lina Marcela Pérez Manchego',
+          cargo:
+            'Validación de recursos educativos digitales y vinculación LMS',
+          centro:
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
+        },
+        {
+          nombre: 'Leyson Fabián Castaño Pérez',
+          cargo: 'Validación de recursos educativos digitales',
+          centro:
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
+        },
+      ],
+    },
+  ],
+  creditosAdicionales: {
+    imagenes:
+      'Fotografías y vectores tomados de <a href="https://www.freepik.es/" target="_blank">www.freepik.es</a>, <a href="https://www.shutterstock.com/" target="_blank">www.shutterstock.com</a>, <a href="https://unsplash.com/" target="_blank">unsplash.com </a>y <a href="https://www.flaticon.com/" target="_blank">www.flaticon.com</a>',
+    creativeCommons:
+      'Licencia creative commons CC BY-NC-SA<br><a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank">ver licencia</a>',
   },
-  // creditosInicio: [
-  //   {
-  //     titulo: 'En alianza',
-  //     contenido: [
-  //       require('@/assets/template/logo-sena-naranja.svg'),
-  //       require('@/assets/template/mintic.jpg'),
-  //       require('@/assets/template/minsalud.jpg'),
-  //     ],
-  //   },
-  //   {
-  //     titulo: 'En compañía',
-  //     contenido: [
-  //       require('@/assets/template/presidencia.jpg'),
-  //       require('@/assets/template/ecopetrol.jpg'),
-  //     ],
-  //   },
-  //   {
-  //     titulo: 'Una iniciativa',
-  //     contenido: [require('@/assets/template/santander.jpg')],
-  //   },
-  // ],
 }

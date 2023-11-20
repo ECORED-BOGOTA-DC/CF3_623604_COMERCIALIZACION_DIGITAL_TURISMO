@@ -18,7 +18,7 @@
    
     separador
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 2.1.	Claves para lograr experiencias únicas en los asistentes a los eventos
+      h2 2.1	Claves para lograr experiencias únicas en los asistentes a los eventos
 
     p.mb-5(data-aos="fade-right") Según el Blog Fosbury (2021), se deben tener presentes las siguientes claves en el momento de generar sensaciones y ofrecer la mejor experiencia a los clientes; le invitamos a reconocer algunas de ellas a través del siguiente recurso:
     
@@ -26,7 +26,7 @@
       .py-3.py-md-4(titulo="Clave 1")
         .row.justify-content-center
           .col-lg-5.order-lg-1.order-2
-            p <strong>Se debe definir el sentimiento que se desea estimular.</strong>
+            .h5 Se debe definir el sentimiento que se desea estimular.
             p.mt-4 Las emociones positivas no solamente hacen sentir al usuario, estudios de investigación indican que cuando las personas sienten como mínimo tres veces más emociones positivas que negativas se sienten bien y desean volver a repetir esa experiencia
           .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
@@ -34,7 +34,7 @@
       .py-3.py-md-4(titulo="Clave 2")
         .row.justify-content-center
           .col-lg-5.order-lg-1.order-2
-            p <strong>Se deben originar experiencias que inciten el sistema sensorial de los asistentes.</strong>
+            .h5 Se deben originar experiencias que inciten el sistema sensorial de los asistentes.
             p.mt-4 Con la vista, por ejemplo, se debe sorprender al asistente mostrando un producto de manera excepcional y emotiva. El sentido del gusto se puede activar incitando a los usuarios a probar algún producto dentro del evento. El oído también puede participar a través de los sonidos en la música; el olfato debe estimular a través de olores; y el sentido del tacto se debe incorporar haciendo sentir al asistente todo lo que se genera alrededor del evento.
           .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
@@ -42,7 +42,7 @@
       .py-3.py-md-4(titulo="Clave 3")
         .row.justify-content-center
           .col-lg-5.order-lg-1.order-2
-            p <strong>Un evento debe crear sorpresa, intriga o provocación</strong>
+            .h5 Un evento debe crear sorpresa, intriga o provocación.
             p.mt-4 Al utilizar la creatividad para llamar la atención de las personas, estas relacionarán el producto o servicio con algo positivo en la forma en que resuelve sus problemas.
           .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
@@ -50,7 +50,7 @@
       .py-3.py-md-4(titulo="Clave 4")
         .row.justify-content-center
           .col-lg-5.order-lg-1.order-2
-            p <strong>Se deben generar experiencias físicas, interacciones y estilos de vida</strong>
+            .h5 Se deben generar experiencias físicas, interacciones y estilos de vida.
             p.mt-4 Un evento puede ampliar el horizonte de los asistentes a través de actividades que generen interacciones de carácter físico, enseñando formas nuevas de realizar una acción e interactuando con la marca.
           .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
@@ -58,7 +58,7 @@
       .py-3.py-md-4(titulo="Clave 5")
         .row.justify-content-center
           .col-lg-5.order-lg-1.order-2
-            p <strong>Se deben utilizar espacios, tiempos y actividades innovadoras y diferentes. </strong>
+            .h5 Se deben utilizar espacios, tiempos y actividades innovadoras y diferentes.
             p.mt-4 Ante esto, las nuevas tecnologías aplicadas a los eventos son un ejemplo claro de las posibilidades de creatividad e innovación que tiene esta herramienta para generar notoriedad.
           .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
@@ -66,7 +66,7 @@
       .py-3.py-md-4(titulo="Clave 6")
         .row.justify-content-center
           .col-lg-5.order-lg-1.order-2
-            p <strong>Cuando el evento termine, también se debe continuar creando experiencia.</strong>
+            .h5 Cuando el evento termine, también se debe continuar creando experiencia.
             p.mt-4 Se puede hacer uso de video-resúmenes o de regalos pequeños que sean útiles y que sirvan para recordar la experiencia, como cuadernos y bolígrafos con la identidad corporativa del evento.
             p.mt-4 Las experiencias vividas siempre quedarán en la mente del consumidor, ya que se le incitó a participar del evento de manera activa, con emoción y energía.
           .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
@@ -77,7 +77,7 @@
     
     separador
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 2.2.	Ejemplos de experiencias en eventos
+      h2 2.2	Ejemplos de experiencias en eventos
     
     p.mb-5(data-aos="fade-right") Sin duda, hay muchos eventos que aún tenemos en la memoria por el lugar en el que se llevaron a cabo, por las acciones o actividades que se realizaron durante el evento, por los temas abordados o por todos los elementos en conjunto. Es por ello que, a continuación, podrá encontrar algunos ejemplos de eventos que han dejado huella a través de las experiencias que han propiciado a sus asistentes:
     
@@ -90,7 +90,7 @@
             .row.justify-content-center
               .col-lg-5.col-10
                 img.baqw(src='@/assets/curso/tema2/ico1.svg', alt="Imagen decorativa")
-              p.mt-4.text-center Red Bull ha logrado posicionar su marca a través de eventos deportivos de acción, se encarga de generar emociones fuertes y hacer que los asistentes identifiquen la marca con fuerza, adrenalina y aventura. Con sus eventos, la compañía no solo tiene el poder de atraer a quienes disfrutan de su producto, sino a los que no lo hacen pero definen los shows como algo memorable. 
+              p.mt-4.text-center Red Bull ha logrado posicionar su marca a través de eventos deportivos de acción, se encarga de generar emociones fuertes y hacer que los asistentes identifiquen la marca con fuerza, adrenalina y aventura. Con sus eventos, la compañía no solo tiene el poder de atraer a quienes disfrutan de su producto, sino a los que no lo hacen pero definen los #[em shows] como algo memorable. 
             .row.justify-content-center
               .col-lg-4.col-8
                 img.baqw(src='@/assets/curso/tema2/ico2.svg', alt="Imagen decorativa")
@@ -102,11 +102,11 @@
             .row.justify-content-center
               .col-lg-4.col-8
                 img.baqw(src='@/assets/curso/tema2/ico4.svg', alt="Imagen decorativa")
-              p.mt-4.text-center “Durante este 2019, LG Electronics se asoció con Pantone Color Institute para traer a NY un café pop-up para exhibir cómo el nuevo producto de televisión de LG enfatiza el poder del color y los sentidos humanos a través del gusto, vista y tacto. Los clientes cenaron deliciosas especialidades mientras baristas locales servían lattes saborizados y postres inspirados en los cuatro colores del reporte Fashion Color Summer 2019 de Pantone” (Hazelton, 2020). 
+              p.mt-4.text-center “Durante este 2019, LG Electronics se asoció con Pantone Color Institute para traer a NY un café #[em pop-up] para exhibir cómo el nuevo producto de televisión de LG enfatiza el poder del color y los sentidos humanos a través del gusto, vista y tacto. Los clientes cenaron deliciosas especialidades mientras baristas locales servían lattes saborizados y postres inspirados en los cuatro colores del reporte #[em Fashion Color Summer] 2019 de Pantone” (Hazelton, 2020).
     
     separador
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 2.3. Pasos para crear experiencias en eventos
+      h2 2.3 Pasos para crear experiencias en eventos
 
     p.mb-5(data-aos="fade-right") Un evento debe ser la oportunidad para hacer que los clientes se sientan especiales, pero también es la ocasión de construir relaciones de negocio duraderas. La pregunta es: ¿cómo lograrlo? Pues bien, entre otros, se requiere identificar bien al público objetivo, a fin de crearles experiencias memorables, pues es el momento de conectar al participante con el servicio, la marca o producto que se ofrece. A continuación, podrá identificar los pasos para crear experiencias en eventos:
     
@@ -116,7 +116,7 @@
           .col-lg-6.order-lg-1.order-2
             p <strong>1. Conocer al público objetivo</strong>
             p Las buenas experiencias no están dirigidas a todos los turistas por igual. Tenga presente que los visitantes se clasifican según nivel educacional, edad, nacionalidad o grupo de viaje, o también puede segmentarlos de acuerdo con sus intereses.
-            p Estas preguntas le servirán de base: ¿cómo son sus turistas? ¿Tienen ingresos altos, medios o bajos? ¿Qué les interesa hacer, qué actividades prefieren? ¿Son colombianos o extranjeros?
+            p Estas preguntas le servirán de base: ¿cómo son sus turistas? ¿tienen ingresos altos, medios o bajos? ¿qué les interesa hacer, qué actividades prefieren? ¿son colombianos o extranjeros?
           .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/tema2/img9.png', alt="Imagen decorativa")
@@ -191,7 +191,7 @@
 
     separador
     #t_2_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 2.4. Sistemas de medición para los eventos
+      h2 2.4 Sistemas de medición para los eventos
 
     p(data-aos="fade-right") Los resultados de un evento pueden ser medidos para determinar su éxito y las posibles mejoras que se deben realizar a futuro. Dicha medición se puede lograr de diferentes maneras: 
     p.mb-5(data-aos="fade-right") Por una parte, a través de los <strong>elementos cuantitativos</strong>, mediante los cuales se debe realizar un balance entre los ingresos y gastos resultantes una vez realizado el cierre del evento. Por ejemplo, un buen indicador que se puede tener en cuenta en este punto es la cantidad de registros o entradas vendidas, para ello es importante:
@@ -207,26 +207,26 @@
     p.mb-5(data-aos="fade-right") En el mismo proceso de sistematización de la medición de impacto de los eventos, se tiene la percepción de asistentes: apreciación subjetiva de los participantes; esta se puede hacer tomando en cuenta varios indicadores, como se presenta a continuación:
     
     TabsA.color-acento-botones.mb-4(data-aos="zoom-in")
-      .tarjeta.color-acento-botones.px-2.p-4(titulo="Promoción e impacto en redes sociales")
+      .tarjeta.color-acento-botones.px-2.p-4(titulo="Promoción")
         h5 Promoción e impacto en redes sociales
-        p Cada una de las plataformas sociales que existen en la <i>web</i> tiene, de manera individual, su sistema que mide alcance y cobertura de una actividad. Así, Facebook registra “me gusta”; Twitter registra <i>tweets</i>, etc.
+        p Cada una de las plataformas sociales que existen en la web tiene, de manera individual, su sistema que mide alcance y cobertura de una actividad. Así, Facebook registra “me gusta”; Twitter registra <i>tweets</i>, etc.
         p Estas métricas, en plataformas como Hootsuite y Buffer, se generan de manera automatizada. 
-      .tarjeta.color-acento-botones.px-2.p-4(titulo="Satisfacción con el evento")
+      .tarjeta.color-acento-botones.px-2.p-4(titulo="Satisfacción")
         h5 Satisfacción con el evento
-        p Establecer si los objetivos planeados se concretaron de manera adecuada y medir la satisfacción del usuario de manera ágil y directa se puede lograr a través del correo electrónico. En él, se envía un cuestionario, estructurando preguntas pertinentes, el cual puede ser diseñado a través de diversas herramientas <i>web</i> como Google forms, Typeform, entre otras.
+        p Establecer si los objetivos planeados se concretaron de manera adecuada y medir la satisfacción del usuario de manera ágil y directa se puede lograr a través del correo electrónico. En él, se envía un cuestionario, estructurando preguntas pertinentes, el cual puede ser diseñado a través de diversas herramientas web como Google forms, Typeform, entre otras.
         p Se deben evaluar temas como: calidad de los ponentes, adecuación de las salas, horarios, disposición del personal del evento, instalaciones, tecnología, etc. Se puede hacer uso de una <i>app</i> específicamente para el evento, que pondere la calidad de la información y calidad de expositores, incrementando el índice de respuestas. Una sugerencia puede ser Meetmaps, que es un completo <i>software</i> que le permite al organizador de eventos comunicar, gamificar y seducir a los asistentes a través de una gran experiencia, antes, durante y después. 
-      .tarjeta.color-acento-botones.px-2.p-4(titulo="<i>Engagement</i> y participación de los asistentes")
+      .tarjeta.color-acento-botones.px-2.p-4(titulo="Participación")
         h5 <i>Engagement</i> y participación de los asistentes
         p El evento debe estar activo <i>online</i> antes, durante y después de su desarrollo. Si se creó un <i>hashtag</i> en especial para el evento, se puede medir contando cuántas veces fue usado por los usuarios; también puede medir <i>posts</i> o interacciones en redes sociales con respecto al evento, y adicionalmente, es importante escuchar las conversaciones que se crean alrededor del mismo para conocer la reputación <i>online</i> del evento.
     
     separador
     #t_2_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 2.5. Herramientas de innovación
+      h2 2.5 Herramientas de innovación
 
     p.mb-5(data-aos="fade-right") Son instrumentos válidos para que la organización identifique, por ejemplo, cuáles son las debilidades, amenazas, fortalezas y oportunidades, y potenciar la importancia del aspecto humano del cliente, para que, a la hora de diseñar el evento, este sea innovador.
     
     .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
-      h5 Tabla 3
+      h5 Tabla 3.
       span Proceso de innovación
     
     .tabla-b.color-acento-contenido.mb-0

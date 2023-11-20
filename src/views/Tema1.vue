@@ -42,43 +42,15 @@
     
     .titulo-sexto.color-acento-contenido(data-aos="fade-right")
       h5 Figura 1.
-      span  Turismo de negocios, MICE y formación.
+      span  Turismo de negocios, MICE y formación
     
     .row.justify-content-center.mb-5
       .col-lg.col-md-6.mb-lg-0.mb-4(data-aos="fade-right")
-        .tarjeta-avatar.bg2
-          img.marq(src='@/assets/curso/Tema1/ico1.svg', alt="Imagen decorativa")
-          .tarjeta
-            .p-5
-              p.text-center.marn Es el que se realiza cuando el viajero se desplaza con objetivos comerciales, para consolidar vínculos económicos, establecer contactos entre empresas y entablar relaciones entre empresas y posibles socios de negocios.
-            .row.justify-content-center.mtq.mt-3
-              .col-lg-2.col-4
-                img.cel(src='@/assets/curso/Tema1/n1.png', alt="Imagen decorativa")
-              .col-lg-7
-                h4.text-center Turismo de negocios corporativo
+        img(src='@/assets/curso/Tema1/img01.svg', alt="Imagen decorativa")
       .col-lg.col-md-6.mb-lg-0.mb-4(data-aos="flip-up")
-        .tarjeta-avatar.bg3
-          img(src='@/assets/curso/Tema1/ico2.svg', alt="Imagen decorativa")
-          .tarjeta
-            .p-5
-              p.text-center Es el que se ocupa de los viajes y desplazamientos para asistir a congresos, reuniones o convenciones, pero también engloba el turismo de incentivos y el de ferias comerciales y profesionales.
-            .row.justify-content-center.mtq.mt-2
-              .col-lg-2.col-4
-                img.cel(src='@/assets/curso/Tema1/n2.png', alt="Imagen decorativa")
-              .col-lg-8
-                h4.text-center <i>MICE (Meetings, Incentives, Conferences and Exhibitions)</i>
-      .col-lg.col-md-6.mb-lg-0.mb-4(data-aos="fade-left")
-        .tarjeta-avatar.bg4
-          img(src='@/assets/curso/Tema1/ico3.svg', alt="Imagen decorativa")
-          .tarjeta
-            .p-5
-              p.text-center Viajes que se realizan para asistir a cursos de formación, es el turismo <i>training / outdoor</i>.
-            .row.mt-4
-            .row.justify-content-center.mtq.mt-5
-              .col-lg-2.col-4
-                img.cel(src='@/assets/curso/Tema1/n3.png', alt="Imagen decorativa")
-              .col-lg-7.mt-3
-                h4.text-center Turismo de formación
+        img(src='@/assets/curso/Tema1/img02.svg', alt="Imagen decorativa")
+      .col-lg.col-md-6(data-aos="fade-left")
+        img(src='@/assets/curso/Tema1/img03.svg', alt="Imagen decorativa")
     
     p.mb-5(data-aos="fade-right") Al hablar de turismo de negocios, es importante definir algunas de las características propias de este tipo de actividad, pues esta clasificación del turismo facilita, por tanto, el desarrollo turístico de un destino, ya que lo destaca en el mapa turístico, contribuyendo a la generación de empleo, desarrollo empresarial, permite la creación y mejora de la infraestructura vial, realza los valores culturales y patrimoniales y se convierte en motor de desarrollo para otros renglones de la economía.
     
@@ -92,21 +64,21 @@
     
     separador
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.1.	Eventos 
+      h2 1.1	Eventos 
     
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/Tema1/4.png')})`}" data-aos="fade-right" alt="Imagen decorativa"
       )
       .bloque-texto-g__texto.p-4(data-aos="fade-left")
-        p.mb-0 El término evento tiene su origen en la expresión latina “eventus”, cuyo significado es acontecimiento, suceso o eventualidad. Un evento es una actividad especial que se realiza fuera de la rutina regular para celebrar un acontecimiento, el cual conlleva la generación de una planeación de espacios, su capacidad y disponibilidad, entre otros, y que se clasifica según su naturaleza.
+        p.mb-0 El término evento tiene su origen en la expresión latina “#[em eventus]”, cuyo significado es acontecimiento, suceso o eventualidad. Un evento es una actividad especial que se realiza fuera de la rutina regular para celebrar un acontecimiento, el cual conlleva la generación de una planeación de espacios, su capacidad y disponibilidad, entre otros, y que se clasifica según su naturaleza.
           br
           br
           | El <i>marketing</i>, el relacionamiento público y estrategas comunicadores consideran los eventos como una herramienta de divulgación dirigida a clientes potenciales, canales de comunicación y, en general, a toda la sociedad.
     
     separador
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.2.	Historia de los eventos  
+      h2 1.2	Historia de los eventos  
     
     p.mb-5(data-aos="fade-right") Un evento es un acontecimiento que se organiza de manera previa, con el propósito de convocar un grupo de personas para un propósito en común, ya sea de orden social, político, religioso, de negocios, entre otros. Conozca un poco acerca de cómo surgen los eventos a través de la historia:
     
@@ -114,7 +86,7 @@
       SlyderA.mt-5.fon1.aq(tipo="b")
         .row.justify-content-center.px-2
           .col-lg-5.order-lg-1.order-2
-            h4 1. GRECIA 3000 a. C.
+            h4 1. Grecia 3000 a. C.
             ul.lista-ul.mt-5
               li 
                 i.fas.fa-check.c2
@@ -136,11 +108,11 @@
               img(src='@/assets/curso/Tema1/5.png', alt="Imagen decorativa")
         .row.justify-content-center.px-2
           .col-lg-5.order-lg-1.order-2
-            h4 2. ANTIGUA GRECIA
+            h4 2. Antigua Grecia
             p.mt-5.mb-0 <strong>Olimpia</strong>
             p La historia la define como el lugar que dio origen a los Juegos Olímpicos.
             p.mt-4.mb-0 <strong>Juegos Olímpicos</strong>
-            p Fueron una serie de competiciones atléticas disputadas por representantes de diversas Ciudades Estado de la Antigua Grecia.
+            p Fueron una serie de competiciones atléticas disputadas por representantes de diversas ciudades Estado de la Antigua Grecia.
             p.mt-4 Había menos eventos y solo los hombres solteros que hablaban griego podían competir.
             p.mt-4 Coronas de laurel, ramas de palmera, cintas de lana e incluso, a veces, alimentos para toda la vida eran premios.
           .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4
@@ -148,7 +120,7 @@
               img(src='@/assets/curso/Tema1/6.png', alt="Imagen decorativa")
         .row.justify-content-center.px-2
           .col-lg-5.order-lg-1.order-2
-            h4 3. ROMA 3000 a. C. 
+            h4 3. Roma 3000 a. C. 
             ul.lista-ul.mt-5
               li 
                 i.fas.fa-check.c2
@@ -173,26 +145,32 @@
               img(src='@/assets/curso/Tema1/7.png', alt="Imagen decorativa")
         .row.justify-content-center.px-2
           .col-lg-5.order-lg-1.order-2
-            h4 4. LAS CRUZADAS (1096 - 1221)
+            h4 4. Las cruzadas (1096 - 1221)
             ul.lista-ul.mt-5
               li 
                 i.fas.fa-check.c2
                 | En las cruzadas, hubo varias guerras entre dos religiones: la católica y la musulmana, y los dos bloques religiosos trataban de conquistar Jerusalén (la Tierra Santa). 
-              li.mt-4 
+              li
                 i.fas.fa-check.c2
                 | En total, fueron ocho cruzadas y se llevaron a cabo entre los siglos XI y XIII. 
-              li.mt-4  
+              li 
                 i.fas.fa-check.c2
-                | Generan gran movilización de soldados, peregrinos y mercaderes.<br>Nacen las primeras ferias comerciales (en Venecia, la más célebre).
-              li.mt-4 
+                | Generan gran movilización de soldados, peregrinos y mercaderes.
+              li 
                 i.fas.fa-check.c2
-                | Se construyen posadas y albergues.<br>Se fomenta un comercio entre musulmanes y cristianos.
+                | Nacen las primeras ferias comerciales (en Venecia, la más célebre).
+              li
+                i.fas.fa-check.c2
+                | Se construyen posadas y albergues.
+              li 
+                i.fas.fa-check.c2
+                | Se fomenta un comercio entre musulmanes y cristianos.
           .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/Tema1/8.png', alt="Imagen decorativa")
         .row.justify-content-center.px-2
           .col-lg-5.order-lg-1.order-2
-            h4 5. REVOLUCIÓN INDUSTRIAL fines del siglo XVIII y principios del XIX
+            h4 5. Revolución industrial fines del siglo XVIII y principios del XIX
             ul.lista-ul.mt-5
               li 
                 i.fas.fa-check.c2
@@ -214,7 +192,7 @@
               img(src='@/assets/curso/Tema1/9.png', alt="Imagen decorativa")
         .row.justify-content-center.px-2
           .col-lg-5.order-lg-1.order-2
-            h4 6. COPA MUNDIAL DE LA FIFA
+            h4 6. Copa mundial de la FIFA
             ul.lista-ul.mt-5
               li 
                 i.fas.fa-check.c2
@@ -233,7 +211,7 @@
               img(src='@/assets/curso/Tema1/100.png', alt="Imagen decorativa")
         .row.justify-content-center.px-2
           .col-lg-5.order-lg-1.order-2
-            h4 7. JUEGOS OLÍMPICOS
+            h4 7. Juegos Olímpicos
             ul.lista-ul.mt-5
               li 
                 i.fas.fa-check.c2
@@ -253,7 +231,7 @@
     
     separador
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.3.	Clasificación de los eventos
+      h2 1.3	Clasificación de los eventos
     
     p(data-aos="fade-right") Existen diferentes clases de eventos, entre ellos, se encuentran eventos académicos, cuya finalidad es compartir y divulgar información sobre un tema de interés en un área específica; eventos sociales, reuniones para compartir o celebrar algún acontecimiento específico (celebraciones, negocios…); y eventos de promoción comercial, cuyo objetivo es promocionar a las empresas de cualquier sector. Hacen parte de la actividad empresarial de las organizaciones y, por tanto, de las estrategias de mercadeo. 
     p.mb-5(data-aos="fade-right") Dentro de la clasificación de eventos, se tienen los eventos de tipo social, que son los eventos más comunes y frecuentes a lo largo de la historia de la humanidad. Le invitamos a ver el siguiente recurso, donde conocerá en detalle diferentes elementos de estos eventos: 
@@ -535,7 +513,7 @@
       span  Resumen de la tipología de los eventos
     
     .tabla-a.color-acento-contenido.mb-4
-      table
+      table(alt="Describe la tipología, la definición. tipo de evento y su entidad promotora para cada uno de los eventos existentes.")
         caption.text-center Nota. <span style="font-weight: 400">Tomado de Andaluz (2018).</span>
         thead
           tr(data-aos="fade-right")
@@ -694,7 +672,7 @@
     
     separador
     #t_1_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.4.	Eventos internacionales y nacionales más reconocidos
+      h2 1.4	Eventos internacionales y nacionales más reconocidos
     
     p.mb-5(data-aos="fade-right") Sin duda, los eventos hacen parte de la historia misma de la humanidad, con ellos se conmemoran fechas y momentos especiales, y muchos de ellos, por el motivo o la majestuosidad del evento, se hacen inolvidables, marcando hitos en la historia. Le invitamos a ver, en el siguiente recurso, algunos de los eventos internacionales más reconocidos:
     
@@ -719,7 +697,7 @@
 
     separador
     #t_1_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.5.	Fases de los eventos
+      h2 1.5	Fases de los eventos
 
     p.mb-5(data-aos="fade-right") La duración de cada fase variará según el alcance y la naturaleza del evento, pero todo comienza con una idea para satisfacer una necesidad o deseo, que se exprese en un plan estratégico. Los factores que dan forma al evento se incorporan luego en un plan de proyecto que proporciona la hoja de ruta hacia el éxito. Los recursos necesarios se adquieren y sincronizan en un plan de acción para producir el evento. 
         
@@ -733,14 +711,12 @@
     
     p(data-aos="fade-right") En la primera fase, que se conoce como pre-evento, se desarrollan las acciones que ayudan a posicionar una imagen única del evento en la mente y el corazón del público objetivo, por ello, es importante crear tácticas consistentes, que respalden la estrategia de comunicación de este. Esta primera fase tiene dos fases, que son la planeación y la organización del evento.
     p.mb-5(data-aos="fade-right") La planeación es la base del evento, esta fase consiste en formular planes que servirán de guía para el accionar del evento; esto implica establecer objetivos y acciones para alcanzar dichos objetivos. En el siguiente recurso, podrá encontrar todos los elementos que hacen parte de la fase de planeación:
-    
-    .row.mb-5
-      .col-lg-6(data-aos="fade-right")
-        .row.ppp.align-items-end
-          .col-lg-2.col-4.img-ico
-            img(src="@/assets/curso/fondos/icono.svg")
-          .col-lg-8
-            h3.mt-2.mb-1 Fase de planeación 
+          
+    .row.align-items-end.mb-5(data-aos="fade-right")
+      .col.img-02
+        img(src='@/assets/curso/fondos/icono.svg')
+      .col-auto.BG01
+        h3.ps-5.mb-0 Fase de planeación
     
     p.mb-5(data-aos="fade-right") Las actividades que se ejecutan en esta fase son: 
     
@@ -806,7 +782,7 @@
         SlyderA.aq2.largos(tipo="b")
           .row.justify-content-center.px-2
             .col-lg-6.order-lg-1.order-2
-              h4 Temática, nombre y actividades.
+              h4 Temática, nombre y actividades
               p.mt-5 Se elige la temática, el nombre y las actividades.
               ul.lista-ul.mt-5
                 li 
@@ -883,7 +859,7 @@
                   | Es importante seguir al detalle este tiempo por el orden. También es conveniente que la duración de las intervenciones sea igual para todos los ponentes, así se evitan conflictos. 
                 li 
                   i.fas.fa-check.c2
-                  | Es aconsejable que las intervenciones no excedan la hora de duración porque si no se perderá la atención del público.
+                  | Es aconsejable que las intervenciones no excedan la hora de duración porque sino se perderá la atención del público.
             .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
               figure
                 img(src='@/assets/curso/Tema1/img23.png', alt="Imagen decorativa")
@@ -894,13 +870,13 @@
               ul.lista-ul
                 li
                   i.fas.fa-check.c2
-                  p <strong>Recurso humano:</strong> <br>Técnicos sonido y video, agentes de seguridad, logística, etc.
+                  p <strong>Recurso humano</strong> <br>Técnicos sonido y video, agentes de seguridad, logística, etc.
                 li
                   i.fas.fa-check.c2
-                  p <strong>Recursos Técnicos:</strong><br>Equipos de sonido, grabación, apoyo audiovisual (pantallas, televisores, proyectores para diapositivas, video Beam)
+                  p <strong>Recursos Técnicos</strong><br>Equipos de sonido, grabación, apoyo audiovisual (pantallas, televisores, proyectores para diapositivas, video Beam)
                 li
                   i.fas.fa-check.c2
-                  p <strong>Recursos Materiales:</strong><br>Se refieren a los implementos necesarios y las instalaciones a utilizar como lápices, carpetas, libretas, mesas, sillas, etc.              
+                  p <strong>Recursos Materiales</strong><br>Se refieren a los implementos necesarios y las instalaciones a utilizar como lápices, carpetas, libretas, mesas, sillas, etc.              
             .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
               figure
                 img(src='@/assets/curso/Tema1/img24.png', alt="Imagen decorativa")
@@ -942,7 +918,7 @@
                   p Obtener el cálculo total de gastos y costos. 
                 li
                   i.fas.fa-check.c2
-                  p Frecuentemente se le asigna un 10% de la suma total del presupuesto para cubrir los imprevistos.
+                  p Frecuentemente, se le asigna un 10% de la suma total del presupuesto para cubrir los imprevistos.
                 .row.justify-content-center
                   .col-lg-8
                     h4.text-center Cotización
@@ -994,19 +970,17 @@
       .col-lg-8
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           h5 Figura 4.
-          span Actividades de la fase Organización
+          span Actividades de la fase organización
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/Tema1/img31.svg', alt="Imagen decorativa")
     
     p.mb-5(data-aos="fade-right") Conozca más de esta fase en el siguiente recurso:
     
-    .row.mb-5
-      .col-lg-6(data-aos="fade-right")
-        .row.ppp.align-items-end
-          .col-lg-2.col-4.img.ico
-            img(src="@/assets/curso/fondos/icono.svg")
-          .col-lg-8
-            h3.mt-2.mb-1 Fase de organización 
+    .row.align-items-end.mb-5(data-aos="fade-right")
+      .col.img-02
+        img(src='@/assets/curso/fondos/icono.svg')
+      .col-auto.BG01
+        h3.ps-5.mb-0 Fase de organización 
     
     .row.fon35  
       .row.justify-content-center.mb-5
@@ -1017,41 +991,41 @@
             .col-lg-2.col-4
               img.aa(src='@/assets/curso/Tema1/ico6.svg', alt="Imagen decorativa")
             .col-lg-9.mt-2
-              h4.mt-2 Definición de comités de trabajo:
-              p Los comités son conjuntos de personas encargadas de un asunto en especial del evento.
+              h4.mt-2 Definición de comités de trabajo
+              p Los comités son conjuntos de personas encargadas de un asunto, en especial del evento.
           .row.mb-5
             .col-lg-3.col-sm-6.mb-lg-0.mb-4(data-aos="fade-right")
-              .tarjeta--boton.color-primario.p-4.sombra
+              .tarjeta--boton.color-primario.h-100.p-4.sombra
                 .row.justify-content-center.mb-3
                   .col-7
                     figure
                       img.baqw(src='@/assets/curso/Tema1/ico7.svg', alt="Imagen decorativa")
-                p.text-center.mb-4 Roles del equipo organizador
-                .row.mb-3
+                p.text-center.mb-0 Roles del equipo organizador
             .col-lg-3.col-sm-6.mb-lg-0.mb-4(data-aos="flip-right")
-              .tarjeta--boton.color-primario.p-4.sombra
+              .tarjeta--boton.color-primario.h-100.p-4.sombra
                 .row.justify-content-center.mb-3
                   .col-7
                     figure
                       img.baqw(src='@/assets/curso/Tema1/ico8.svg', alt="Imagen decorativa")
-                p.text-center Promoción / <i>Marketing</i> del Evento
+                p.text-center.mb-0 Promoción / <i>Marketing</i> del evento
             .col-lg-3.col-sm-6.mb-lg-0.mb-4(data-aos="flip-left")
-              .tarjeta--boton.color-primario.p-4.sombra
+              .tarjeta--boton.color-primario.h-100.p-4.sombra
                 .row.justify-content-center.mb-3
                   .col-7
                     figure
                       img.baqw(src='@/assets/curso/Tema1/ico9.svg', alt="Imagen decorativa")
-                p.text-center.mb-4 Contratación de servicios
-                .row.mb-3
+                p.text-center.mb-0 Contratación de servicios
             .col-lg-3.col-sm-6.mb-lg-0.mb-4(data-aos="fade-left")
-              .tarjeta--boton.color-primario.p-4.sombra
+              .tarjeta--boton.color-primario.h-100.p-4.sombra
                 .row.justify-content-center.mb-3
                   .col-7
                     figure
                       img.baqw(src='@/assets/curso/Tema1/ico10.svg', alt="Imagen decorativa")
-                p.text-center Acomodación según número de asistentes
+                p.text-center.mb-0 Acomodación según número de asistentes
       
-      p.tta.text-center(data-aos="fade-right") <strong>Roles del equipo organizador</strong>
+      .row.mb-5(data-aos="fade-right")
+        .col-auto.tta.px-5.py-2
+          p.text-center.mb-0 <strong>Roles del equipo organizador</strong>
 
       .row.justify-content-center.mb-5
         .col-lg-6.order-lg-1.order-2(data-aos="fade-right")
@@ -1075,7 +1049,7 @@
                   p.mb-0 Fijar fechas de reuniones periódicas con el fin de revisar las actividades ejecutadas y programar acciones pendientes.
                 li
                   i.fas.fa-check.c2
-                  p.mb-0 Definir beneficios económicos para ponentes e invitados (tiquetes aéreos, <i>tours</i> por la ciudad, alojamiento)
+                  p.mb-0 Definir beneficios económicos para ponentes e invitados (tiquetes aéreos, <i>tours</i> por la ciudad, alojamiento).
             div.px-2(numero="2" titulo="Logística") Reservación del espacio:
               ul.lista-ul
                 li
@@ -1119,14 +1093,16 @@
         .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
           img(src='@/assets/curso/Tema1/img34.png', alt="Imagen decorativa")
 
-    p.tta.text-center.mb-5(data-aos="fade-right") <strong>Promoción / <i>Marketing</i> del Evento</strong>              
+    .row.mb-5(data-aos="fade-right")
+      .col-auto.tta.px-5.py-2
+        p.text-center.mb-0  <strong>Promoción / <i>Marketing</i> del evento</strong>              
     
     .row.fon33.mb-5  
       .row.justify-content-center.mb-4
         .col-lg-8(data-aos="zoom-in")
           img(src='@/assets/curso/Tema1/img35.svg', alt="Imagen decorativa")
       
-      p.tte.mb-5(data-aos="fade-right") <strong><i>Diseño y Elaboración de Invitaciones</i></strong>
+      p.tte.mb-5(data-aos="fade-right") <strong>Diseño y elaboración de invitaciones</strong>
       
       .row.justify-content-center.mb-5
         .col-lg-6.order-lg-1.order-2
@@ -1147,19 +1123,23 @@
         .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
           img(src='@/assets/curso/Tema1/img36.png', alt="Imagen decorativa")
       
-      p.mb-0.tte.mb-5(data-aos="fade-right") <strong><i>Diseño de la plantilla de asistencia</i></strong>
+      p.mb-0.tte.mb-5(data-aos="fade-right") <strong>Diseño de la plantilla de asistencia</strong>
 
       .row.justify-content-center.mb-5
         .col-lg-7(data-aos="zoom-in")
-          img(src='@/assets/curso/Tema1/img37.png', alt="Imagen decorativa")
+          img(src='@/assets/curso/Tema1/img37.png', alt="Imagen que ilustra una plantilla de registro de asistencia a un evento donde debe contener:<br>fecha del evento<br>lugar del evento<br>Responsable del evento<br>Facilitador<br>Hora<br>Registro de asistentes")
     
-      p.tta.text-center(data-aos="fade-right") <strong>Contratación de servicios</strong>
+      .row.mb-5(data-aos="fade-right")
+        .col-auto.tta.px-5.py-2
+          p.text-center.mb-0 <strong>Contratación de servicios</strong>
     
     .row.justify-content-center.bg7.mb-5(data-aos="zoom-in")
       .col-lg-10
         img(src='@/assets/curso/Tema1/img38.svg', alt="Imagen decorativa")
     
-    p.tta.text-center.mb-5(data-aos="fade-right") <strong>Acomodación según número de asistentes</strong>
+    .row.mb-5(data-aos="fade-right")
+      .col-auto.tta.px-5.py-2
+        p.text-center.mb-0 <strong>Definición de acomodación según número de asistentes</strong>
     
     SlyderF.mb-5(columnas="col-lg-6" data-aos="zoom-in")
       .tarjeta.color-primario1.p-4.h-100
@@ -1191,7 +1171,7 @@
           .col-6
             img(src='@/assets/curso/Tema1/ico15.svg', alt="Imagen decorativa")
         h4.text-center.mt-4 Cóctel
-        p.text-center.mb-0 Generalmente el espacio no lleva sillas, ni mesas, solo algunas mesas de apoyo para descargar copas, platos, entre otros.
+        p.text-center.mb-0 Generalmente, el espacio no lleva sillas, ni mesas, solo algunas mesas de apoyo para descargar copas, platos, entre otros.
     
     p.mb-5(data-aos="fade-right") Ya abordada la fase de pre-evento, junto con las dos fases que la conforman, es importante detallar lo que ocurre en las fases de evento y pos-evento. Teniendo en cuenta que en el evento es donde se van a ejecutar todas las actividades que se planificaron durante el pre-evento. 
     
@@ -1200,7 +1180,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/Tema1/img39.png')})`}" data-aos="fade-right" alt="Imagen decorativa"
       )
       .bloque-texto-g__texto.p-5(data-aos="fade-left")
-        p.mb-0 Va a consistir en la reunión de todas las personas involucradas en el mismo, en el lugar y hora estimada, guiadas por la programación que el comité organizador preparó como evento. En este sentido, se aconseja realizar un ensayo de todo el evento al menos con 24 horas de anticipación, para asegurar que todo está en orden y, en caso de que algo falle, poder corregirlo.
+        p.mb-0 Va a consistir en la reunión de todas las personas involucradas en el mismo, en el lugar y hora estimada, guiadas por la programación que el comité organizador preparó como evento. En este sentido, se aconseja realizar un ensayo de todo el evento, al menos con 24 horas de anticipación, para asegurar que todo está en orden y, en caso de que algo falle, poder corregirlo.
     
     .row.justify-content-center.mb-5
       .col-lg-6.order-lg-1.order-2(data-aos="fade-right")
@@ -1215,7 +1195,7 @@
     
     separador
     #t_1_6.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.6.	Montajes de los eventos
+      h2 1.6 Montajes de los eventos
 
     p.mb-5(data-aos="fade-right") Se reconoce como montaje del evento al proceso que se utiliza para diseñar los planos y secuencias de un <strong>evento</strong> o actividad, de forma que los asistentes perciban la integración armónica de todo lo que haga parte del mismo. Para entender mejor este tema, le invitamos a ver el siguiente recurso sobre los tipos de montajes de eventos: 
     
@@ -1225,17 +1205,17 @@
           .col-lg-6.order-lg-1.order-2
             h4 Tipo escuela
             p.mt-4 Utilizado para realizar actividades de tipo académico,  pero con pocas personas.
-            p.mt-4.mb-0 <strong>Su escenografía:</strong>
+            p.mt-4.mb-0 <strong>Su escenografía</strong>
             p Una tarima con mesa principal y, frente a esta, mesas rectangulares con capacidad para alrededor de cuatro a seis personas; se dejan espacios entre cada mesa para que las personas puedan caminar sin problema.
-            p.mt-4.mb-0 <strong>Beneficio:</strong>
-            ul.lista-ul.mb-0
+            p.mt-4.mb-0 <strong>Beneficio</strong>
+            ul.lista-ul.mb-0.ms-4
               li.mb-0
                 i.fas.fa-check.c2
                 p.mb-0 Las personas pueden colocar material de apoyo o aparatos tecnológicos en la mesa para tomar notas. 
               li.mb-0
                 i.fas.fa-check.c2
                 p Facilita a los participantes ver claramente lo que se proyecte en la pantalla o lo que exponga el ponente.
-            p.mb-0 <strong>Requerimientos:</strong>
+            p.mb-0 <strong>Requerimientos</strong>
             p.mb-0 Salón grande y un número de participantes pequeño.
           .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
@@ -1244,10 +1224,10 @@
           .col-lg-6.order-lg-1.order-2
             h4 Tipo auditorio
             p.mt-4 Se usa cuando se tienen actividades académicas con audiencias muy grandes, como, por ejemplo, asambleas, reuniones de funcionarios, asociaciones, entre otros. 
-            p.mt-4.mb-0 <strong>Su escenografía:</strong>
+            p.mt-4.mb-0 <strong>Su escenografía</strong>
             p Tiene filas rectas de asientos con un pasillo en el centro o dos pasillos laterales. Los asientos miran hacia el área del ponente. 
-            p.mt-4.mb-0 <strong>Beneficio:</strong>
-            ul.lista-ul.mb-0
+            p.mt-4.mb-0 <strong>Beneficio</strong>
+            ul.lista-ul.mb-0.ms-4
               li.mb-0
                 i.fas.fa-check.c2
                 p.mb-0 Es el montaje más fácil de hacer por el personal encargado y es el más común de los estilos de montaje.
@@ -1260,12 +1240,12 @@
         .row.justify-content-center.px-2
           .col-lg-6.order-lg-1.order-2
             h4 Tipo "U"
-            p.mt-4 Se utiliza para realizar actividades académicas o sociales para pocas personas (16 personas o menos). Si el grupo es mayor de 20 personas es preferible buscar otro estilo de disposición del salón.
-            p.mt-4.mb-0 <strong>Su escenografía:</strong>
+            p.mt-4 Se utiliza para realizar actividades académicas o sociales para pocas personas (16 personas o menos). Si el grupo es mayor de 20 personas, es preferible buscar otro estilo de disposición del salón.
+            p.mt-4.mb-0 <strong>Su escenografía</strong>
             p Incluye mesas y asientos colocados en tres lados del salón con un cuadrado vacío en el centro. 
-            p.mt-4.mb-0 <strong>Beneficio:</strong>
+            p.mt-4.mb-0 <strong>Beneficio</strong>
             p Todos pueden ver al dictante y también interactuar entre ellos. Facilita la discusión y promueve tanto la comunicación interpersonal como la no verbal. 
-            p.mt-4.mb-0 <strong>Recomendación:</strong>
+            p.mt-4.mb-0 <strong>Recomendación</strong>
             p Se recomienda para ruedas de prensa o eventos donde asistirán medios de comunicación.
           .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
@@ -1273,7 +1253,7 @@
         .row.justify-content-center.px-2
           .col-lg-6.order-lg-1.order-2
             h4 Tipo mesa imperial
-            ul.lista-ul.mb-0.mt-4
+            ul.lista-ul.mb-0.mt-4.ms-4
               li.mb-0
                 i.fas.fa-check.c2
                 p.mb-0 Se usa, sobre todo, para celebraciones protocolarias, almuerzos o cenas de negocios, pues la integran gran cantidad de comensales, a partir de 50 personas, generalmente. 
@@ -1283,9 +1263,9 @@
               li.mb-0
                 i.fas.fa-check.c2
                 p No hay ponencias, se usa para celebrar, más que todo.
-            p.mt-4.mb-0 <strong>Su escenografía:</strong>
+            p.mt-4.mb-0 <strong>Su escenografía</strong>
             p Mesa cuadrada, sin hueco en el centro.<br>Se utiliza en eventos formales.
-            p.mt-4.mb-0 <strong>Beneficio:</strong>
+            p.mt-4.mb-0 <strong>Beneficio</strong>
             p Mayor interacción entre los participantes.
           .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
@@ -1293,14 +1273,23 @@
         .row.justify-content-center.px-2
           .col-lg-6.order-lg-1.order-2
             h4 Tipo banquete
-            p.mt-4 Aunque su nombre es de banquete, no quiere decir que usted tiene que servir comida para disponer un salón de conferencias de esta manera. <br>Este tipo de estilo promueve trabajo en equipo y discusión en grupo. Pueden ser eventos sociales como desayunos, almuerzos o cenas, bodas, quince años, aniversarios, entre otros, o también pueden ser reuniones de trabajo.
-            ul.lista-ul.mb-0.mt-4
-              li.mb-0
+            p Aunque su nombre es de banquete, no quiere decir que usted tiene que servir comida para disponer un salón de conferencias de esta manera. <br>Este tipo de estilo promueve trabajo en equipo y discusión en grupo. Pueden ser eventos sociales como desayunos, almuerzos o cenas, bodas, quince años, aniversarios, entre otros, o también pueden ser reuniones de trabajo.
+            .h5 Su escenografía
+            ul.lista-ul.ms-4
+              li
                 i.fas.fa-check.c2
-                p.mb-0 <strong>Su escenografía:</strong><br>Mesas redondas o rectangulares  montadas para 6 a 10 personas.<br>Se pueden iluminar para generar decoración.
-              li.mb-0
+                | Mesas redondas o rectangulares  montadas para 6 a 10 personas.
+              li
                 i.fas.fa-check.c2
-                p <strong>Desventajas:</strong><br>La mitad de los participantes tendrán que girar sus asientos en la dirección opuesta para ver al ponente, novios, o quinceañera, según sea el caso.<br>También será dificultoso para algunos en el auditorio poder ver adecuadamente las ayudas visuales. 
+                | Se pueden iluminar para generar decoración.
+            .h5 Desventajas
+            ul.lista-ul.ms-4
+              li
+                i.fas.fa-check.c2
+                | La mitad de los participantes tendrán que girar sus asientos en la dirección opuesta para ver al ponente, novios, o quinceañera, según sea el caso.
+              li
+                i.fas.fa-check.c2
+                | También será dificultoso para algunos en el auditorio poder ver adecuadamente las ayudas visuales. 
           .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/Tema1/img45.png', alt="Imagen decorativa")
@@ -1315,17 +1304,22 @@
               img(src='@/assets/curso/Tema1/img46.png', alt="Imagen decorativa")
         .row.justify-content-center.px-2
           .col-lg-6.order-lg-1.order-2
-            h4 Tipo lounge
+            h4 Tipo #[em lounge]
             p.mt-4 Hoy en día, se utiliza mucho para eventos sociales con un ambiente relajado. Se usa para actividades de celebración. Usted podrá sentarse a beber algo, conversar y escuchar música. 
-            p.mb-0 Su escenografía:
-            ul.lista-ul.mb-0.mt-4
+            .h5 Su escenografía
+            ul.lista-ul.ms-4
               li.mb-0
                 i.fas.fa-check.c2
-                p.mb-0 Se caracteriza por emplear cómodos sillones para dos personas o individuales, puffs y mesas iluminadas, etc. Todo con un estilo original y, en muchos casos, minimalista.<br>Uso de luces y velas como parte de la decoración.
+                p.mb-0 Se caracteriza por emplear cómodos sillones para dos personas o individuales, #[em puffs] y mesas iluminadas, etc. Todo con un estilo original y, en muchos casos, minimalista.
               li.mb-0
                 i.fas.fa-check.c2
-                p Beneficios:<br>El ambiente relajado y de esparcimiento que se genera.<br>Mucha interacción entre participantes.
-            p.mt-4.mb-0 <strong>Desventajas:</strong>
+                p.mb-0 Uso de luces y velas como parte de la decoración.
+            .h5 Beneficios
+            ul.lista-ul.ms-4
+              li.mb-0
+                i.fas.fa-check.c2
+                El ambiente relajado y de esparcimiento que se genera.<br>Mucha interacción entre participantes.
+            .h5 Desventajas
             p No es recomendable para eventos académicos.
           .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
@@ -1333,7 +1327,7 @@
         .row.justify-content-center.px-2
           .col-lg-6.order-lg-1.order-2
             h4 Tipo feria
-            ul.lista-ul.mb-0.mt-4
+            ul.lista-ul.mb-0.mt-4.ms-4
               li
                 i.fas.fa-check.c2
                 p Este montaje se usa para la exposición de cualquier tipo de mercancías en ferias y eventos.
@@ -1352,7 +1346,7 @@
    
     separador
     #t_1_7.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.7.	Recursos para la organización de eventos 
+      h2 1.7	Recursos para la organización de eventos 
 
     p.mb-5(data-aos="fade-right") A la hora de iniciar la organización de un evento, sin duda, uno de los factores más importantes son los recursos con los se puede contar para la organización del mismo. Siendo consecuente con ello, en la siguiente tabla encontrará algunos recursos humanos, materiales y físicos con los que se debe contar:
     
@@ -1361,7 +1355,7 @@
       span Recursos para la organización de eventos
 
     .tabla-a.color-acento-contenido.mb-5 
-      table
+      table(alt="Se describe en esta tabla todos los recursos que se requieren tanto humanos, como físicos y materiales para un evento.")
         caption.text-center Nota. <span style="font-weight: 400">Tomada de López (2021).</span>
         thead
           tr(data-aos="fade-right")
@@ -1381,7 +1375,7 @@
                   | Moderador: conductor del acto.
                 li 
                   i.fas.fa-check.c2
-                  | Recibo de invitados y conferencistas
+                  | Recibo de invitados y conferencistas.
                 li.mt-4
                   i.fas.fa-check.c2
                   | Sonidista.
@@ -1419,7 +1413,7 @@
                   |  Astas para auditorio.
                 li 
                   i.fas.fa-check.c2
-                  | -Atril para auditorio.
+                  | Atril para auditorio.
                 li 
                   i.fas.fa-check.c2
                   | Emblemas institucionales.
@@ -1482,7 +1476,7 @@
 
     separador
     #t_1_8.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.8.	Espacios para la realización de eventos
+      h2 1.8	Espacios para la realización de eventos
 
     p.mb-5(data-aos="fade-right") El espacio en el que se lleva a cabo un evento juega un papel importante, pues es el plano en el que los asistentes del mismo viven la experiencia, que es el principal objetivo de este tipo de organizaciones. Conozca algunos de estos espacios: 
     
@@ -1531,7 +1525,7 @@
         .row.justify-content-center.px-2
           .col-lg-5.order-lg-1.order-2
             h4 Espacios flexibles para <i>branding</i>
-            p.mt-4 Desde hace unos años, y probablemente debido a la crisis, muchos negocios <strong>han optado por usar locales, calles, casas, etc., durante un tiempo limitado para promocionarlo vender sus productos o servicios.</strong> Y la experiencia es siempre positiva.
+            p.mt-4 Desde hace unos años, y probablemente debido a la crisis, muchos negocios <strong>han optado por usar locales, calles, casas, etc., durante un tiempo limitado para promocionarlo, vender sus productos o servicios.</strong> Y la experiencia es siempre positiva.
           .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/Tema1/img56.png', alt="Imagen decorativa" )
@@ -1553,7 +1547,7 @@
 
     separador
     #t_1_9.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.9.	Tendencias en eventos
+      h2 1.9	Tendencias en eventos
 
     p(data-aos="fade-right") La demanda actual en el segmento turístico de eventos exige evolución constante de la oferta. Las empresas MICE se reinventan permanentemente, ajustando sus propuestas a estas nuevas exigencias en el mercado de eventos, creando experiencias únicas que motivan al visitante a explorar el destino más allá del evento. 
     p.mb-5(data-aos="fade-right") Observe el siguiente recurso, donde se presentan algunas tendencias que se presentan hoy día:
@@ -1563,7 +1557,7 @@
         LineaTiempoD.color-acento-botones
           p(numero="1" titulo="Eventos digitales") Es similar a un evento tradicional; marca la diferencia al ser un evento en línea y los asistentes se reúnen desde lugares diversos, a través de una plataforma. Las plataformas más usadas en eventos digitales son: Zoom, Meet, Webex, etc. Presenta algunas ventajas, como, por ejemplo: al organizador del evento le proporciona la alternativa de ampliar el número de participantes y ponentes que pueden estar ubicados en diferentes partes del mundo o que presentan incompatibilidad de horario. Desde la perspectiva del invitado, el formato de evento <i>online</i> le brinda la oportunidad de pagar un valor más reducido, estar en cualquier parte del mundo y, en ocasiones, ver el evento en horarios distintos al estipulado originalmente por la empresa (esto cuando se deja grabado).
           p(numero="2" titulo="Eventos híbridos") Su característica principal se encuentra en la interacción y participación incrementada al combinar acciones físicas o materiales con la virtualidad. Se realiza con presencia física de los actores en diferentes sedes que están, a su vez, enlazadas vía <i>streaming</i>, posibilitando a los asistentes una retransmisión en vivo, entregando experiencias reales sincrónicas. En el espacio físico, normalmente asiste un reducido número de asistentes, y en la parte virtual, se usan plataformas audiovisuales y tecnológicas (videoconferencias en <i>streaming, chats,</i> etc.) a través de las cuales los asistentes pueden participar en el evento desde sus casas o ciudades de origen.<br>Cuenta con varias ventajas: ahorro en tiempo y gastos que se derivan de los traslados de asistentes y ponentes; la audiencia puede ser más grande; mejora el impacto en redes sociales y también posibilita el establecimiento de indicadores de medición de la trascendencia del evento y satisfacción de los asistentes.
-          p(numero="3" titulo="Eventos en escenarios 3d con la personificación de avatares") Se usa una réplica de las fisonomías del rostro de la persona transformada a un avatar en 3D, es digital, se convierte en una figura digital capaz de interactuar de manera inmersiva en escenarios virtuales.
+          p(numero="3" titulo="Eventos en escenarios 3D con la personificación de avatares") Se usa una réplica de las fisonomías del rostro de la persona transformada a un avatar en 3D, es digital, se convierte en una figura digital capaz de interactuar de manera inmersiva en escenarios virtuales.
           p(numero="4" titulo="Eventos sostenibles") Acciones amigables con el medio ambiente es la consigna mundial hoy, razón por la cual, muchas empresas se enfocan en eventos que minimicen la afectación al ecosistema, promocionando la producción del lugar y la conexión con la naturaleza. Algunas medidas que se vienen utilizando son: ofrecimiento de medios de transporte menos contaminantes, el ajuste de las cantidades de alimentos sobrantes en comidas y cenas, etc. 
           p(numero="5" titulo="<i>Small meeting</i>") Consiste en organizar pequeños espacios y grupos de trabajo observando los protocolos de bioseguridad. Sus usuarios valoran el trabajo en equipo y refuerzan vínculos personales y profesionales con clientes, proveedores y colaboradores.          
       .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
@@ -1571,7 +1565,7 @@
     
     separador
     #t_1_10.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.10. Formatos de eventos <i>online</i>
+      h2 1.10 Formatos de eventos <i>online</i>
       
     p.mb-5(data-aos="fade-right") Los formatos <i>online</i> son muy flexibles y permiten la adaptación de un formato de evento presencial como concierto, conferencia, congreso, feria, espectáculos y demás para su realización. Le invitamos a ver el siguiente recurso, en el que se explican algunos de ellos: 
     
@@ -1594,7 +1588,7 @@
     .row.justify-content-center.mb-5
       .col-lg-6.order-lg-1.order-2(data-aos="fade-right")
         AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul1")
-          div(titulo="Chats <i>online fireside</i> (“caseros”)")
+          div(titulo="<i>Chats online fireside</i> (“caseros”)")
             p.mb-0 Formato caracterizado por facilitar la cercanía entre asistentes y orador en sesiones privadas y que es considerado como un evento. También puede tener su origen como sesión complementaria en una cumbre o conferencia virtual. 
           div(titulo="Ferias y exposiciones comerciales virtuales")
             p.mb-0 Formato de gran escala en el cual se exponen productos y servicios directamente, con el objetivo de sensibilizar a futuros clientes y fidelizar a los existentes. 
@@ -1616,7 +1610,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h5 Importante!
+                  h5 ¡Importante!
                   p Ver ejemplo de un <i>tour</i> virtual: “La historia del museo y el museo en la historia”:
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(:href="('https://museonacional.gov.co/noticias/Paginas/Recorrido_virtual_sala1.aspx')" target="_blank")
@@ -1625,7 +1619,7 @@
     
     separador
     #t_1_11.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.11. Plataformas para desarrollar eventos virtuales
+      h2 1.11 Plataformas para desarrollar eventos virtuales
 
     p.mb-5(data-aos="fade-right") Así como existen eventos presenciales, gracias a la globalización, que ha permitido la llegada de las tecnologías de la información y las comunicaciones – TIC, hoy por hoy existen varias plataformas que se han especializado en ofrecer un servicio de acuerdo con la demanda de un evento de este tipo. Le invitamos a ver el siguiente recurso, donde se presentan las diferentes plataformas empleadas para desarrollar eventos virtuales:
     
@@ -1638,11 +1632,11 @@
             .row.justify-content-center
               .col-lg-5.col-10
                 img.baqw(src='@/assets/curso/Tema1/z1.svg', alt="Imagen decorativa")
-              p.mt-4 Plataforma intuitiva y fácil de usar. Transmite reuniones, conferencias y seminarios <i>web</i> con video, audio y mensajería instantánea. Dispone de versión <i>premium</i>, que posibilita el tener hasta 1.000 participantes y 10.000 espectadores, con herramientas interactivas.
+              p.mt-4 Plataforma intuitiva y fácil de usar. Transmite reuniones, conferencias y seminarios web con video, audio y mensajería instantánea. Dispone de versión <i>premium</i>, que posibilita el tener hasta 1.000 participantes y 10.000 espectadores, con herramientas interactivas.
             .row.justify-content-center
               .col-lg-3.col-6
                 img.baqw(src='@/assets/curso/Tema1/z2.svg', alt="Imagen decorativa")
-              p.mt-4 <i>App</i> de videoconferencias desarrollada por la compañía Google Inc, se accede desde buscadores <i>web</i> y dispositivos móviles; las empresas y organizaciones son sus principales usuarios, ya que fue ideada para dinamizar el entorno laboral. Cuenta con una interfaz sencilla, y para poder crear las reuniones, se debe tener activa una cuenta en Google.
+              p.mt-4 <i>App</i> de videoconferencias desarrollada por la compañía Google Inc, se accede desde buscadores web y dispositivos móviles; las empresas y organizaciones son sus principales usuarios, ya que fue ideada para dinamizar el entorno laboral. Cuenta con una interfaz sencilla, y para poder crear las reuniones, se debe tener activa una cuenta en Google.
             .row.justify-content-center
               .col-lg-3.col-6
                 img.baqw(src='@/assets/curso/Tema1/z3.svg', alt="Imagen decorativa")
@@ -1662,7 +1656,7 @@
 
     separador
     #t_1_12.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.12. Mercadeo <i>online</i> para eventos
+      h2 1.12 Mercadeo <i>online</i> para eventos
 
     p.mb-5(data-aos="fade-right") Los eventos virtuales, al igual que los presenciales, deben despertar emociones en los asistentes. Organizadores de eventos, fiestas, conciertos, etc., con muchos años de experiencia, han comenzado a migrar sus servicios al mundo online, y para ello, ha sido esencial contar con una planificación y estrategias de mercadeo que logren afianzar sus relaciones con los clientes y conectarlos con los valores de la marca. 
     
@@ -1673,14 +1667,12 @@
         .cajon.color-acento-botones.p-4.mb-4.sombra
           p.mb-0 <strong>Desarrollar estrategias de mercadeo digital para la promoción de eventos no solo es importante en el antes, sino también en el durante y en el después de dichos eventos. Hoy en día, todo suceso pasa por Internet, que es un medio ideal para cualquier tipo de proceso; websites, plataformas digitales, apps han abierto un panorama inmenso al conseguir un mayor impacto y visibilidad para las organizaciones que comprenden que el consumidor moderno es autónomo, gestiona él mismo la información, es decir, es un cibernauta.</strong>
         p.mb-0 Dicho esto, queda claro que los medios digitales representan una oportunidad para la formulación de estrategias de marca en las organizaciones. El mercadeo en este campo realiza métricas de <i>marketing</i> sincrónicas, interactuando con los consumidores y ajustando la estrategia a partir de los resultados. Esta flexibilidad y dinámica propia del <i>marketing</i> digital resulta, en términos económicos, más viable al comparar con los medios tradicionales de difusión, como radio, televisión o prensa. 
-    
-    .row.mb-5
-      .col-lg-6(data-aos="fade-right")
-        .row.ppp2.align-items-end
-          .col-lg-2.col-4.img-ico
-            img(src="@/assets/curso/fondos/icono2.svg")
-          .col-lg-8
-            h3.mt-2.mb-1 Herramientas de <i>marketing</i> digital.
+  
+    .row.align-items-end.mb-5(data-aos="fade-right")
+      .col.img-02
+        img(src='@/assets/curso/fondos/icono2.svg')
+      .col-auto.BG01
+        h3.ps-5.mb-0 Herramientas de <i>marketing</i> digital
     
     p.mb-5(data-aos="fade-right") El <i>marketing</i> digital se refiere al conjunto de estrategias que se emplean para promocionar, en este caso, los eventos, ya sean presenciales o a través de alguna plataforma digital; a diferencia del <i>marketing</i> tradicional, este se hace a través de canales y métodos que permiten el análisis de los resultados en tiempo real, tal como lo podrá observar en el siguiente recurso, en el que encontrará detalles de la manera como los eventos son socializados a través de las redes sociales:
     
@@ -1688,7 +1680,7 @@
       .py-3.py-md-4(titulo="<i>Landing page</i>")
         .row.justify-content-center
           .col-lg-5.order-lg-1.order-2
-            p Son páginas <i>web</i> personalizadas cuya finalidad es atraer visitantes y convertirlos en clientes potenciales presentando información de productos y/o servicios específicos. Se llega a ellas cuando el visitante a un sitio <i>web</i> accede a un hipervínculo de los que regularmente se encuentran allí. Para el caso de los eventos, el internauta accede a través de un banner en la red, que lo lleva a conocer rápidamente la información del evento como tal. El objetivo de estas <i>landing pages</i> es capturar la atención del visitante en pocos segundos, por lo tanto, no son sitios donde se compartan grandes detalles del evento, pero sí son un abre bocas al mismo, convirtiéndose en el primer acercamiento de la oferta al prospecto.
+            p Son páginas web personalizadas cuya finalidad es atraer visitantes y convertirlos en clientes potenciales presentando información de productos y/o servicios específicos. Se llega a ellas cuando el visitante a un sitio web accede a un hipervínculo de los que regularmente se encuentran allí. Para el caso de los eventos, el internauta accede a través de un banner en la red, que lo lleva a conocer rápidamente la información del evento como tal. El objetivo de estas <i>landing pages</i> es capturar la atención del visitante en pocos segundos, por lo tanto, no son sitios donde se compartan grandes detalles del evento, pero sí son un abre bocas al mismo, convirtiéndose en el primer acercamiento de la oferta al prospecto.
           .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/Tema1/img80.png', alt="Imagen decorativa")
@@ -1735,11 +1727,11 @@
             figure
               img(src='@/assets/curso/Tema1/img85.png', alt="Imagen decorativa")
 
-    .row.ppp3.align-items-end.mb-5(data-aos="fade-right")
-      .col-lg-2.col-4.img-ico
-        img(src="@/assets/curso/fondos/icono2.svg")
-      .col-lg-9
-        h3.mt-2.mb-1 Pasos que conducen a la formulación de una adecuada estrategia de <i>marketing</i> digital en eventos.
+    .row.align-items-end.mb-5(data-aos="fade-right")
+      .col.img-02
+        img(src='@/assets/curso/fondos/icono2.svg')
+      .col-auto.BG01
+        h3.ps-5.mb-0 Pasos que conducen a la formulación de una adecuada estrategia de <i>marketing</i> digital en eventos
         
     p.mb-5(data-aos="fade-right") En el <i>marketing</i> digital, hay muchas opciones de plataformas, de tipos de contenidos, etc.; sin embargo, al ser un elemento casi intangible, la incertidumbre de aplicarla y de saber si se está empleando de manera apropiada es la constante en los organizadores de eventos. Hay quienes le apuntan al <i>inbound marketing</i> y, en él, al <i>marketing</i> de contenidos, pero, sin duda, se hace necesario establecer un procedimiento organizado y pensado en el consumidor, que permita el éxito de la estrategia. Sabiendo esto, le invitamos a ver el siguiente recurso, donde se presentan los pasos que conducen a la formulación de una adecuada estrategia de <i>marketing</i> digital en eventos:
     
@@ -1748,40 +1740,33 @@
         ImagenInfografica.color-acento-contenido
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/Tema1/img86.png', alt="Imagen decorativa")
+              img(src='@/assets/curso/Tema1/img86.svg', alt="Imagen decorativa")
 
           .tarjeta.color-acento-botones.p-3.bgcolor.sombra(x="32%" y="75%" numero="+")
             .titulo-sexto.color-primario.mb-0
-              h5 1. Objetivos claros:
             p.mt-4 Se deben responder preguntas como: ¿qué se quiere obtener? ¿Cuál es el público objetivo? ¿Qué actividades realizarán los convocados durante y después del evento? Algunos ejemplos pueden ser: aumentar la interacción con la comunidad, ampliar la red de contactos, aumentar ventas, etc.
           .tarjeta.color-acento-botones.p-3.bgcolor.sombra(x="27%" y="50%" numero="+")
             .titulo-sexto.color-primario.mb-0
-              h5 2. Tipos de eventos online y plataformas para los mismos: 
             p.mt-4 Se debe definir el tipo de evento a realizar, bien sea conferencia, taller, exposición, etc., y luego proceder a escoger la plataforma. 
           .tarjeta.color-acento-botones.p-3.bgcolor.sombra(x="32%" y="24%" numero="+")
             .titulo-sexto.color-primario.mb-0
-              h5 3. Nombre impactante: 
             p.mt-4 Para definir el nombre ideal para el evento, se deben tener claros los valores de marca y lo que se desea resaltar y comunicar. Este debe ser sencillo, concordante con la materia del evento y que genere recordación.
           .tarjeta.color-acento-botones.p-3.bgcolor.sombra(x="42%" y="9%" numero="+")
             .titulo-sexto.color-primario.mb-0
-              h5 4. Estética: 
             p.mt-4 La información a transmitir debe ser diáfana y puntual, así como el desarrollo de la parte visual y estética.
           .tarjeta.color-acento-botones.p-3.bgcolor.sombra(x="67%" y="24%" numero="+")
             .titulo-sexto.color-primario.mb-0
-              h5 5. Definir la estrategia de comunicación:
             p.mt-4 Teniendo claro el tipo de público que se desea atraer y lo que se pretende que ese tipo de público haga (compre, comparta, suscriba, etc.), elija las estrategias de comunicación. Por ejemplo, el diseño de las campañas de expectativa, donde, días antes del evento, se difunden piezas publicitarias que incrementan el interés e ilusión por su realización; otra estrategia también puede ser la vista anteriormente: <i>landing page</i>, donde irá la información relevante del evento. 
           .tarjeta.color-acento-botones.p-3.bgcolor.sombra(x="72%" y="52%" numero="+")
             .titulo-sexto.color-primario.mb-0
-              h5 6. Crear un registro cómodo y seguro
             p.mt-4 El proceso de registro debe ser simple, solicitud de información básica del asistente y datos de contacto.
           .tarjeta.color-acento-botones.p-3.bgcolor.sombra(x="67%" y="77%" numero="+")
             .titulo-sexto.color-primario.mb-0
-              h5 7. Definir los recursos físicos y humanos
             p.mt-4 Se debe asignar un presupuesto para los recursos materiales, tecnológicos y humanos. La idea también es definir los roles y las funciones de todo el personal dentro del evento.  
     
     separador
     #t_1_13.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.13.	Costos en un evento
+      h2 1.13	Costos en un evento
 
     .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
@@ -1812,7 +1797,7 @@
     
     .row.justify-content-center.mb-5
       .col-lg-6.order-lg-1.order-2
-        p.tte(data-aos="fade-right") <strong>Costos fijos: </strong>  
+        .h5.tte(data-aos="fade-right") Costos fijos  
         p(data-aos="fade-right") Independientemente del éxito del evento, constituyen los costos fijos aquellos valores que hay que cancelar, esto es:
         ul.lista-ul
           li(data-aos="fade-right") 
@@ -1854,7 +1839,7 @@
       .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/Tema1/img90.png', alt="Imagen decorativa")
 
-    p.tte.mb-5(data-aos="fade-right") <strong>Costos variables:</strong>
+    .h5.tte.mb-5(data-aos="fade-right") Costos variables
 
     p.mb-5(data-aos="fade-right") Son aquellos que varían en relación con la cantidad de personas que deciden asistir a un evento; se tiene:
 

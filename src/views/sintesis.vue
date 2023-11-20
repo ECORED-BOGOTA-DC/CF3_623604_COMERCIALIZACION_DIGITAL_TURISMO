@@ -10,7 +10,7 @@
       .col-lg-10.aqws
         .row.justify-content-center.align-items-end
           .col-lg-2.col-4.img-01.px-xxl-4(data-aos="fade-right")
-            img(src="@/assets/curso/1.png", alt="Imagen decorativa")
+            img(src="@/assets/curso/1.png", alt="La síntesis resume los temas y subtemas abordados en este componente formativo y que son importantes y necesarios para alcanzar el resultado de aprendizaje como conocer los tipos, tendencias y fases de los eventos, al igual el majeo de herramientas de marketing digital.")
           .col-2.d-lg-flex.d-none
           .col-lg-10(data-aos="fade-left")
             .p-4
