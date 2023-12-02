@@ -384,7 +384,6 @@
       div(x="35%" y="19%" tooltip="Conferencia" )
         .row.justify-content-center.px-2
           .col-lg-7.order-lg-1.order-2
-            h5 1. Conferencia
             p.mb-0.mt-4 Es una reunión en la cual se invita, por lo general, a ponentes destacados en una especialidad. 
             p.mb-0 Se usan herramientas visuales, como gráficos estadísticos, fotografías, videos, etc.
             p.mb-0 El objetivo de una conferencia es convencer al auditorio sobre un determinado tema. 
@@ -412,7 +411,6 @@
       div(x="32%" y="47%" tooltip="Simposio" )
         .row.justify-content-center.px-2
           .col-lg-7.order-lg-1.order-2
-            h5 2. Simposio
             p.mt-4 Reunión de expertos, se expone y desarrolla un tema en forma completa y más detallada que en una conferencia.
             p Los especialistas exponen durante 15 a 20 minutos. 
             p Duración mínima de 6 horas (dura más que una conferencia).
@@ -424,7 +422,6 @@
       div(x="38%" y="80%" tooltip="Cumbre" )
         .row.justify-content-center.px-2
           .col-lg-7.order-lg-1.order-2
-            h5 3. Cumbre
             p.mt-4 Reuniones donde participan personas muy importantes (presidentes, ministros, secretarios generales, directores, etc.) que ocupan cargos de gran responsabilidad y visibilidad de diversos Estados u organismos internacionales, donde se toman decisiones importantes.
             p Duración: mínimo un día, máximo 3. 
             p Los participantes son los representantes de naciones u organizaciones internacionales importantes. 
@@ -433,7 +430,6 @@
       div(x="66%" y="19%" tooltip="Congreso" )
         .row.justify-content-center.px-2
           .col-lg-7.order-lg-1.order-2
-            h5 4. Congreso
             p.mt-4 Reunión generalmente periódica, donde se exponen y debaten múltiples ponencias. Asisten personas con un alto nivel profesional, intereses comunes.
             p Presentaciones de nuevos avances o descubrimientos en determinadas materias.
             p Debe al menos durar de 3 a 5 días, para poder llamarle congreso.
@@ -442,7 +438,6 @@
       div(x="69%" y="47%" tooltip="Foro" )
         .row.justify-content-center.px-2
           .col-lg-7.order-lg-1.order-2
-            h5 5. Foro
             p.mt-4 Es una reunión enfocada a propiciar el intercambio de opiniones y conceptos por parte los integrantes del evento.
             p Se discute o responde a temas específicos de sus ponencias con el auditorio participante.
             p Un moderador controla y guía las preguntas realizadas por el público hacia los ponentes. Se utiliza un <strong>lenguaje informal y coloquial</strong>, distribuyendo de forma igualitaria el uso de la palabra.
@@ -451,7 +446,6 @@
       div(x="66%" y="80%" tooltip="Debate" )
         .row.justify-content-center.px-2
           .col-lg-7.order-lg-1.order-2
-            h5 6. Debate
             p.mt-4 El debate comienza con una pregunta concreta referida a un tema de interés, donde cada persona puede participar de forma espontánea, imprevisible y heterogénea.
             p Discusión de dos grupos de personas con posiciones contrapuestas, que se reúnen para llegar a una solución de algo. 
           .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
@@ -1086,10 +1080,10 @@
               ul.lista-ul
                 li
                   i.fas.fa-check.c2
-                  p.mb-0 En caso de que los ponentes o invitados sean muy importantes (presidentes, políticos, famosos, cantantes, actrices…)
+                  p.mb-0 En caso de que los ponentes o invitados sean muy importantes (presidentes, políticos, famosos, cantantes, actrices…).
                 li
                   i.fas.fa-check.c2
-                  p.mb-0 Coordina todas las actividades de seguridad: contacto con policía, transporte de ponentes o invitados, seguridad privada
+                  p.mb-0 Coordina todas las actividades de seguridad: contacto con policía, transporte de ponentes o invitados, seguridad privada.
         .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
           img(src='@/assets/curso/Tema1/img34.png', alt="Imagen decorativa")
 
@@ -1318,7 +1312,10 @@
             ul.lista-ul.ms-4
               li.mb-0
                 i.fas.fa-check.c2
-                El ambiente relajado y de esparcimiento que se genera.<br>Mucha interacción entre participantes.
+                | El ambiente relajado y de esparcimiento que se genera.
+              li.mb-0
+                i.fas.fa-check.c2
+                | Mucha interacción entre participantes.
             .h5 Desventajas
             p No es recomendable para eventos académicos.
           .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
