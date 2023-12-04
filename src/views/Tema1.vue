@@ -18,25 +18,26 @@
           | El turismo de negocios y eventos incluye la gestión en organización, promoción, venta y distribución de reuniones y eventos, según la Organización Mundial del Turismo; integra también este tipo de turismo, entre otros, a congresos, seminarios, conferencias, ferias, convenciones y reuniones de carácter gubernamental, empresarial o social. 
     
     .row.justify-content-center.mb-5
-      .col-lg-8.bg1.p-4(data-aos="flip-up")
-        h3.text-center TURISMO DE NEGOCIOS Y EVENTOS
-        .row.justify-content-center
-          .col-lg-6
-            h5 TÉRMINO ANGLOSAJÓN
-            p <i>MICE: Meetings, Incentives, Conferences, Exhibitions</i>
-          .col-lg-1.d-lg-flex.d-none
-          .col-lg-4.mb-4
-            h5 TÉRMINOS EN ESPAÑOL
-            ul.lista-ul--color
-              li 
-                i.lista-ul__vineta
-                | Turismo de negocios
-              li 
-                i.lista-ul__vineta
-                | Turismo de eventos
-              li 
-                i.lista-ul__vineta
-                | Turismo de congresos, etc.
+      .col-lg-8
+        .bg1.p-4(data-aos="flip-up")
+          h3.text-center Turismo de negocios y eventos
+          .row.justify-content-center
+            .col-lg-6
+              h5 Término anglosajón
+              p <i>MICE: Meetings, Incentives, Conferences, Exhibitions</i>
+            .col-lg-1.d-lg-flex.d-none
+            .col-lg-4.mb-4
+              h5 Términos en español
+              ul.lista-ul--color
+                li 
+                  i.lista-ul__vineta
+                  | Turismo de negocios
+                li 
+                  i.lista-ul__vineta
+                  | Turismo de eventos
+                li 
+                  i.lista-ul__vineta
+                  | Turismo de congresos, etc.
     
     p.mb-5(data-aos="fade-right") González y Morales (2009) brindan una definición que resume lo que muchos autores conceptuaron a partir de los años 90. Toda acción que busca el desarrollo turístico de un destino a través de la organización de eventos es englobada en esta clasificación de turismo, el cual regularmente es realizado por empresarios, ejecutivos, comerciales y otros profesionales de alto poder adquisitivo, para cerrar negocios, conseguir clientes, asistir a eventos importantes o prestar sus servicios. En este sentido, se podrían hacer ciertas distinciones: 
     
@@ -221,7 +222,7 @@
                 | Se llega al récord de 201 países participantes, con un total de 11.000 deportistas. 
               li.mt-4  
                 i.fas.fa-check.c2
-                | La popularidad de los Juegos genera 3900  millones de telespectadores.
+                | La popularidad de los Juegos genera 3.900 millones de telespectadores.
               li.mt-4 
                 i.fas.fa-check.c2
                 | Las imágenes fueron transmitidas por 300 canales a 220 países, con una cobertura de 35.000 horas.
