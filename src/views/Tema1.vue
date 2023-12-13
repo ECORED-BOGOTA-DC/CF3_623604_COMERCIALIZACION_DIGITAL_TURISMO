@@ -960,7 +960,7 @@
                 img(src='@/assets/curso/Tema1/img27.png', alt="Imagen decorativa")
           .row.justify-content-center.px-2
             h4 Ejemplo evento promoción comercial
-            img(src='@/assets/curso/Tema1/img28.svg', alt="Su estructura consiste en: Cartel de publicidad. Ponentes. Edecán 1: quien tiene a cargo los periodistas. Edecán 2: quien tiene a cargo los invitados. Edecán 3: Refrigerio.")
+            img(src='@/assets/curso/Tema1/img28.svg', alt="Su estructura consiste en: Fondo con la proyección de cada presentación.Ponente.Directivos.Asistentes.")
           .row.justify-content-center.px-2
             h4 Ejemplo evento promoción comercial
             img(src='@/assets/curso/Tema1/img29.svg', alt="Asistentes")
@@ -971,7 +971,7 @@
                 i.fas.fa-check.c2
                 p Si el tipo de evento lo permite, se pueden buscar patrocinadores relacionados con la temática y poder negociar con ellos ciertos aspectos a cambio de su participación en el evento:
             .col-lg-8
-              img(src='@/assets/curso/Tema1/img30.svg', alt="Imagen decorativa")
+              img(src='@/assets/curso/Tema1/img30.svg', alt="- Refrigerios - Noticias en un periódico gratuitamente - Apoyo financiero del evento - Puesto de tinto y aromática gratuito")
     
     p.mb-5(data-aos="fade-right") Una vez se planifica, se procede a  la fase de organización. Este es el proceso de división de labores en el equipo, el cual debe estar interconectado y trabajar de forma conjunta. Esta parte del evento está íntimamente ligada a las habilidades de cada colaborador y los recursos con los que se cuenta para el evento.
     
