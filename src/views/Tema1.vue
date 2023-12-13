@@ -960,10 +960,10 @@
                 img(src='@/assets/curso/Tema1/img27.png', alt="Imagen decorativa")
           .row.justify-content-center.px-2
             h4 Ejemplo evento promoción comercial
-            img(src='@/assets/curso/Tema1/img28.svg', alt="Su estructura consiste en: Fondo con la proyección de cada presentación.Ponente.Directivos.Asistentes.")
+            img(src='@/assets/curso/Tema1/img28.svg', alt="Su estructura consiste en: Cartel de publicidad. Ponentes. Edecán 1: quien tiene a cargo los periodistas. Edecán 2: quien tiene a cargo los invitados. Edecán 3: Refrigerio.")
           .row.justify-content-center.px-2
             h4 Ejemplo evento promoción comercial
-            img(src='@/assets/curso/Tema1/img29.svg', alt="Asistentes")
+            img(src='@/assets/curso/Tema1/img29.svg', alt="Su estructura consiste en: Fondo con la proyección de cada presentación. Ponente. Directivos. Asistentes.")
           .row.justify-content-center.px-2
             h4 Fuentes de financiación
             ul.lista-ul.mb-4
