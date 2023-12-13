@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="157.824" height="146" viewBox="0 0 157.824 146">
+  <defs>
+    <filter id="Elipse_6866" x="11.824" y="0" width="146" height="146" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_292085" data-name="Rectángulo 292085" width="11.379" height="11.378" fill="#7ab8f6"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Trazado_517229" data-name="Trazado 517229" d="M54.968,48.565l-3.428,3.428L49.5,49.95l3.428-3.429L49.31,42.906l2.1-2.1,3.615,3.615,3.429-3.428L60.5,43.033,57.072,46.46l3.616,3.616-2.1,2.1Z" transform="translate(-49.31 -40.802)" fill="#7ab8f6"/>
+    </clipPath>
+    <filter id="Trazado_583444" x="111.132" y="10.45" width="46.692" height="46.692" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Trazado_583445" x="0" y="69.061" width="36.011" height="36.011" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_845761" data-name="Grupo 845761" transform="translate(-368.176 -14402.159)">
+    <g id="Grupo_845760" data-name="Grupo 845760">
+      <g transform="matrix(1, 0, 0, 1, 368.18, 14402.16)" filter="url(#Elipse_6866)">
+        <circle id="Elipse_6866-2" data-name="Elipse 6866" cx="64" cy="64" r="64" transform="translate(20.82 6)" fill="#c2e0ff"/>
+      </g>
+      <text id="_04" data-name="04" transform="translate(418.308 14493.719)" fill="#12263f" font-size="60" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">04</tspan></text>
+      <g id="Grupo_845758" data-name="Grupo 845758" transform="translate(361.436 14403.696)">
+        <g id="Grupo_751839" data-name="Grupo 751839" transform="translate(30.492 12.492)">
+          <g id="Grupo_751838" data-name="Grupo 751838" clip-path="url(#clip-path)">
+            <g id="Grupo_751837" data-name="Grupo 751837" transform="translate(0.001)">
+              <g id="Grupo_751836" data-name="Grupo 751836" clip-path="url(#clip-path-2)">
+                <rect id="Rectángulo_292084" data-name="Rectángulo 292084" width="11.378" height="11.378" transform="translate(0)" fill="#7ab8f6"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 368.18, 14402.16)" filter="url(#Trazado_583444)">
+        <path id="Trazado_583444-2" data-name="Trazado 583444" d="M247.741,98.577A14.346,14.346,0,1,1,233.4,84.231a14.346,14.346,0,0,1,14.346,14.346" transform="translate(-98.92 -67.78)" fill="#7ab8f6"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 368.18, 14402.16)" filter="url(#Trazado_583445)">
+        <path id="Trazado_583445-2" data-name="Trazado 583445" d="M237.06,93.237a9.006,9.006,0,1,1-9.006-9.006,9.005,9.005,0,0,1,9.006,9.006" transform="translate(-210.05 -9.17)" fill="#7ab8f6"/>
+      </g>
+    </g>
+  </g>
+</svg>
