@@ -46,12 +46,25 @@
       span  Turismo de negocios, MICE y formación
     
     .row.justify-content-center.mb-5
-      .col-lg.col-md-6.mb-lg-0.mb-4(data-aos="fade-right")
-        img(src='@/assets/curso/Tema1/img01.svg', alt="Imagen decorativa")
-      .col-lg.col-md-6.mb-lg-0.mb-4(data-aos="flip-up")
-        img(src='@/assets/curso/Tema1/img02.svg', alt="Imagen decorativa")
-      .col-lg.col-md-6(data-aos="fade-left")
-        img(src='@/assets/curso/Tema1/img03.svg', alt="Imagen decorativa")
+      .col-xxl-4.col-xl-5.col-lg-6.col-md-8.col-sm-10.mb-lg-0.mb-4(data-aos="fade-right")
+        .tarjeta-avatar
+          img.sizeimg(src='@/assets/curso/Tema1/img91.svg', alt="Imagen decorativa")
+          .tarjeta.BGIMG01.h-100.px-5.py-5(alt="1. Turismo de negocios corporativo")
+            p.text-center.mt-4.mb-5 Es el que se realiza cuando el viajero se desplaza con objetivos comerciales, para consolidar vínculos económicos, establecer contactos entre empresas y entablar relaciones entre empresas y posibles socios de negocios.
+            br.d-xxl-none.d-flex
+      .col-xxl-4.col-xl-5.col-lg-6.col-md-8.col-sm-10.mb-lg-0.mb-4(data-aos="flip-up")
+        .tarjeta-avatar
+          img.sizeimg(src='@/assets/curso/Tema1/img91.svg', alt="Imagen decorativa")
+          .tarjeta.BGIMG02.h-100.px-5.py-5(alt="2. MICE (Meetings, Incentives, Conferences and Exhibitions)")
+            p.text-center.mt-4.mb-5 Es el que se ocupa de los viajes y desplazamientos para asistir a congresos, reuniones o convenciones, pero también engloba el turismo de incentivos y el de ferias comerciales y profesionales.
+            br.d-xxl-none.d-flex
+      .col-xxl-4.col-xl-5.col-lg-6.col-md-8.col-sm-10.mb-lg-0.mb-4(data-aos="fade-left")
+        .tarjeta-avatar
+          img.sizeimg(src='@/assets/curso/Tema1/img91.svg', alt="Imagen decorativa")
+          .tarjeta.BGIMG03.h-100.px-5.py-5(alt="3. Turismo de formación")
+            p.text-center.mt-4.mb-5 Viajes que se realizan para asistir a cursos de formación, es el turismo #[em training / outdoor].
+            br
+            br.d-xxl-none.d-flex
     
     p.mb-5(data-aos="fade-right") Al hablar de turismo de negocios, es importante definir algunas de las características propias de este tipo de actividad, pues esta clasificación del turismo facilita, por tanto, el desarrollo turístico de un destino, ya que lo destaca en el mapa turístico, contribuyendo a la generación de empleo, desarrollo empresarial, permite la creación y mejora de la infraestructura vial, realza los valores culturales y patrimoniales y se convierte en motor de desarrollo para otros renglones de la economía.
     
@@ -61,7 +74,7 @@
           h5 Figura 2. 
           span  Características turismo de negocios
         figure(data-aos="zoom-in")
-          img(src='@/assets/curso/Tema1/3.svg', alt="Imagen decorativa")
+          img(src='@/assets/curso/Tema1/3.svg', alt="Características turismo de negocios, la descripción de la imagen está debajo de esta.")
     
     separador
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -497,9 +510,10 @@
           .col-lg-6.order-lg-1.order-2
             p El objetivo es que el producto perdure en la mente del público durante y después del evento.
             p Estos eventos deben tener:
-          .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-            figure
-              img(src='@/assets/curso/Tema1/i2.svg', alt="Imagen decorativa")
+          .col-lg-6.d-lg-flex.d-none.order-2
+            img(src='@/assets/curso/Tema1/i2.svg', alt="Eventos: 1. Es indispensable que contengan un breve discurso de apertura sobre la empresa a cargo de un alto directivo de la misma.2. Dar una explicación sobre el producto: características, colores, sabores, beneficios, etc.3. En caso de ser comida o bebida, se debe invitar a degustar el producto.4. En caso de ser otro tipo de producto o servicio, realizar una demostración.5. Como cierre, se debe convocar al almuerzo o a un coctel, según corresponda.6. Regalo para los asistentes.")
+          .col-12.d-lg-none.d-flex.order-1.mb-4
+            img(src='@/assets/curso/Tema1/i2a.svg', alt="Eventos: 1. Es indispensable que contengan un breve discurso de apertura sobre la empresa a cargo de un alto directivo de la misma.2. Dar una explicación sobre el producto: características, colores, sabores, beneficios, etc.3. En caso de ser comida o bebida, se debe invitar a degustar el producto.4. En caso de ser otro tipo de producto o servicio, realizar una demostración.5. Como cierre, se debe convocar al almuerzo o a un coctel, según corresponda.6. Regalo para los asistentes.")
     
     p.mb-5(data-aos="fade-right") En resumen, existen diferentes tipologías de eventos y cada uno de ellos, al tener un propósito específico, es importante definir cuál es el objetivo que se quiere lograr, determinando la población objetivo y, de esta manera, diseñar tanto el ambiente como el mensaje que se pretende transmitir a través de estos.
     
@@ -702,7 +716,7 @@
           h5 Figura 3. 
           span  Fases: pre-evento, evento y pos-evento
         figure(data-aos="zoom-in")
-          img(src="@/assets/curso/Tema1/i3.svg")
+          img(src="@/assets/curso/Tema1/i3.svg", alt="Las fases son: • Pre - evento: compuesta poro Investigación o Planeación o Organización • Evento: o Dirección• Post eventoo Evaluación")
     
     p(data-aos="fade-right") En la primera fase, que se conoce como pre-evento, se desarrollan las acciones que ayudan a posicionar una imagen única del evento en la mente y el corazón del público objetivo, por ello, es importante crear tácticas consistentes, que respalden la estrategia de comunicación de este. Esta primera fase tiene dos fases, que son la planeación y la organización del evento.
     p.mb-5(data-aos="fade-right") La planeación es la base del evento, esta fase consiste en formular planes que servirán de guía para el accionar del evento; esto implica establecer objetivos y acciones para alcanzar dichos objetivos. En el siguiente recurso, podrá encontrar todos los elementos que hacen parte de la fase de planeación:
@@ -857,7 +871,7 @@
                   | Es aconsejable que las intervenciones no excedan la hora de duración porque sino se perderá la atención del público.
             .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
               figure
-                img(src='@/assets/curso/Tema1/img23.png', alt="Imagen decorativa")
+                img(src='@/assets/curso/Tema1/img23.png', alt="- Himno nacional - Se brindan las palabras de apertura del evento, se da la bienvenida por parte del anfitrión. - Se describen las actividades a desarrollar con cada uno de sus tiempos. - Se deben determinar los tiempos de “break” o descanso si es el caso. - Se brindan las palabras de agradecimiento y despedida. La seriedad o el estilo relajado del evento definen el programa. - Todo esto puede variar según el tipo de evento ya que los tiempos cambian, las actividades son diferentes, el protocolo en unos eventos puede ser más serio que en otros.")
           .row.justify-content-center.px-2
             .col-lg-6.order-lg-1.order-2
               h4 Estimar los recursos
@@ -946,10 +960,10 @@
                 img(src='@/assets/curso/Tema1/img27.png', alt="Imagen decorativa")
           .row.justify-content-center.px-2
             h4 Ejemplo evento promoción comercial
-            img(src='@/assets/curso/Tema1/img28.svg', alt="Imagen decorativa")
+            img(src='@/assets/curso/Tema1/img28.svg', alt="Su estructura consiste en: Cartel de publicidad. Ponentes. Edecán 1: quien tiene a cargo los periodistas. Edecán 2: quien tiene a cargo los invitados. Edecán 3: Refrigerio.")
           .row.justify-content-center.px-2
             h4 Ejemplo evento promoción comercial
-            img(src='@/assets/curso/Tema1/img29.svg', alt="Imagen decorativa")
+            img(src='@/assets/curso/Tema1/img29.svg', alt="Asistentes")
           .row.justify-content-center.px-2
             h4 Fuentes de financiación
             ul.lista-ul.mb-4
@@ -967,7 +981,7 @@
           h5 Figura 4.
           span Actividades de la fase organización
         figure(data-aos="zoom-in")
-          img(src='@/assets/curso/Tema1/img31.svg', alt="Imagen decorativa")
+          img(src='@/assets/curso/Tema1/img31.svg', alt="Actividades de la fase Organización. Información descrita debajo de la imagen.")
     
     p.mb-5(data-aos="fade-right") Conozca más de esta fase en el siguiente recurso:
     
@@ -1095,7 +1109,7 @@
     .row.fon33.mb-5  
       .row.justify-content-center.mb-4
         .col-lg-8(data-aos="zoom-in")
-          img(src='@/assets/curso/Tema1/img35.svg', alt="Imagen decorativa")
+          img(src='@/assets/curso/Tema1/img35.svg', alt="• Medios de comunicación: o Radio, televisión o Correo directo • Publicidad impresa: o Periódicos")
       
       p.tte.mb-5(data-aos="fade-right") <strong>Diseño y elaboración de invitaciones</strong>
       
@@ -1116,7 +1130,7 @@
               i.fas.fa-check.c2
               p.mb-2 Información:  nombre del evento, breve descripción, fecha, lugar, hora. De ser necesario indicar el tipo de vestuario 
         .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
-          img(src='@/assets/curso/Tema1/img36.png', alt="Imagen decorativa")
+          img(src='@/assets/curso/Tema1/img36.png', alt="Publicidad de un congreso, con fecha, lugar, nombre del evento y paginas oficiales.")
       
       p.mb-0.tte.mb-5(data-aos="fade-right") <strong>Diseño de la plantilla de asistencia</strong>
 
@@ -1130,7 +1144,7 @@
     
     .row.justify-content-center.bg7.mb-5(data-aos="zoom-in")
       .col-lg-10
-        img(src='@/assets/curso/Tema1/img38.svg', alt="Imagen decorativa")
+        img(src='@/assets/curso/Tema1/img38.svg', alt="01. Sede del evento 02. Tiquetes aéreos (en caso de que el evento cubra el transporte del ponente). 03. Alojamiento de ponentes y/o invitados especiales. 04. Medios audiovisuales. 05. Servicios de protocolo, logística e inscripción. 06. Traducción simultánea. 07. Organización de alimentos y bebidas. 08. Transporte. 09. Tours en la ciudad para ponentes o invitados especiales. 10. Mesones, manteles, tarimas…")
     
     .row.mb-5(data-aos="fade-right")
       .col-auto.tta.px-5.py-2
@@ -1609,7 +1623,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h5 ¡Importante!
-                  p Ver ejemplo de un <i>tour</i> virtual: “La historia del museo y el museo en la historia”:
+                  p Ver ejemplo de un <i>tour</i> virtual: “La historia del museo y el museo en la historia”.
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(:href="('https://museonacional.gov.co/noticias/Paginas/Recorrido_virtual_sala1.aspx')" target="_blank")
                     span Ver
@@ -1687,15 +1701,54 @@
           .col-lg-5.order-lg-1.order-2
             p Las redes sociales se han convertido  desde hace varios años en  la vía más rápida y sencilla para la difusión de todo tipo de información; cada una de ellas impulsa de forma diferenciada, bien sea a través de publicidad, <i>lives</i>, videos o mensajes directos.  
           .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-            .row.colorq.p-3
-              .col-lg-3.col-6
-                img(src='@/assets/curso/fondos/1.png', alt="Imagen decorativa")
-              .col-lg-3.col-6
-                img(src='@/assets/curso/fondos/2.png', alt="Imagen decorativa")
-              .col-lg-3.col-6
-                img(src='@/assets/curso/fondos/3.png', alt="Imagen decorativa")
-              .col-lg-3.col-6
-                img(src='@/assets/curso/fondos/4.png', alt="Imagen decorativa")
+            .row.justify-content-center
+              .col-lg-3.col-6.px-1.mb-lg-0.mb-4
+                .colorq.h-100.p-3
+                  .row.justify-content-center.mb-4
+                    .col-6
+                      img(src='@/assets/curso/fondos/1.png', alt="Imagen decorativa")
+                  .h4.text-center Facebook
+                  p.mb-1 Los usuarios buscan entretenerse.
+                  p.mb-1 En esta red se incluye:
+                  p.mb-1 -Información breve
+                  p.mb-1 -Contenido multimedia
+                  p.mb-1 -#[em Lives] durante el evento
+                  p.mb-0 -Compartir contenido de terceros
+              .col-lg-3.col-6.px-1.mb-lg-0.mb-4
+                .colorq.h-100.p-3
+                  .row.justify-content-center.mb-4
+                    .col-6
+                      img(src='@/assets/curso/fondos/2.png', alt="Imagen decorativa")
+                  .h5.text-center Twitter conocida ahora como X 
+                  p.mb-1 Los usuarios buscan información. 
+                  p.mb-1 Se debe publicar: 
+                  p.mb-1 -Contenido actual y original 
+                  p.mb-1 -Usar #[em Hashtags] 
+                  p.mb-0 -Utilizar imágenes y #[em gifs]
+              .col-lg-3.col-6.px-1.mb-lg-0.mb-4
+                .colorq.h-100.p-3
+                  .row.justify-content-center.mb-4
+                    .col-6
+                      img(src='@/assets/curso/fondos/3.png', alt="Imagen decorativa")
+                  .h5.text-center Instagram
+                  p.mb-1 Los usuarios buscan imágenes impactantes.
+                  p.mb-1 Se debe publicar:
+                  p.mb-1 -Visuales de calidad
+                  p.mb-1 -Aspectos que no se ven del evento como el montaje o el cierre.
+                  p.mb-1 -Contenido de terceros
+                  p.mb-0 -#[em Stories]
+              .col-lg-3.col-6.px-1.mb-lg-0.mb-4
+                .colorq.h-100.p-3
+                  .row.justify-content-center.mb-4
+                    .col-6
+                      img(src='@/assets/curso/fondos/4.png', alt="Imagen decorativa")
+                  .h5.text-center Linkedin
+                  p.mb-1 Los usuarios buscan consejos y actualizaciones profesionales.
+                  p.mb-1 Se debe ofrecer:
+                  p.mb-1 -Contenido que hable de la marca.
+                  p.mb-1 -Utilizar un tono formal
+                  p.mb-1 -Mostrarse profesional
+                  p.mb-0 -Compartir noticias
       .py-3.py-md-4(titulo="<i>Email marketing</i>")
         .row.justify-content-center
           .col-lg-5.order-lg-1.order-2

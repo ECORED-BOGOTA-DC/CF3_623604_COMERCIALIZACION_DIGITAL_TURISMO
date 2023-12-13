@@ -124,7 +124,7 @@
           p <strong>2. Conocer su entorno</strong>
           p El destino donde se desarrollará el evento también es importante. No solo cuenta mostrar las características de un producto o un servicio dentro del evento; tampoco es solo necesario generar un tema en una conferencia y ya; la idea también es poder darle a conocer algo de la localidad al turista. Cada organizador de eventos podrá definir de qué manera incluir estos aspectos en la agenda del día:
           figure
-            img(src='@/assets/curso/tema2/img10.svg', alt="Imagen decorativa")
+            img(src='@/assets/curso/tema2/img10.svg', alt=" Productos locales (comidas, artesanías, etc.). 1 Ofertas de turismo diferentes. 2 Historia local de los pueblos originarios que habitan o habitaban la zona. 3 Características principales de los atractivos naturales, culturales y científicos. 4 Fiestas o eventos culturales autóctonos.")
         .row.justify-content-center.px-2(titulo="")
           .col-lg-6.order-lg-1.order-2
             p <strong>3. Conocer la competencia</strong>
@@ -136,7 +136,7 @@
         .row.justify-content-center.px-2(titulo="")
           p <strong>4. Definir las bases de la experiencia</strong>
           figure
-            img(src='@/assets/curso/tema2/img12.svg', alt="Imagen decorativa" )
+            img(src='@/assets/curso/tema2/img12.svg', alt="1 Defina los objetivos de la experiencia, es decir los principales efectos que buscará generar en sus visitantes, ya sea en el plano de las emociones, los conocimientos o las acciones.  2 Posteriormente, defina el guion de la experiencia, esto es, la secuencia en que se ordenarán las actividades más importantes, así como los contenidos principales que comunicará en cada una de ellas.  3 Luego, se define la narrativa, entendida como la historia o las ideas centrales que articularán y le darán un significado especial a la experiencia.  4 Ahora, se comenzará a evaluar un precio posible, que refleje el valor de la experiencia; y finalmente, revise que todos los elementos se cumplan y hayan quedado estipulados según lo que desea." )
         .row.justify-content-center.px-2(titulo="")
           .col-lg-6.order-lg-1.order-2
             p <strong>5. Definir acciones y roles para cada episodio</strong>
@@ -159,17 +159,17 @@
           .row.justify-content-center
             .col-lg-9
               figure
-                img(src='@/assets/curso/tema2/img14.svg', alt="Imagen decorativa")
+                img(src='@/assets/curso/tema2/img14.svg', alt="1 Recuerde diseñar transiciones entre un episodio y otro, para garantizar la fluidez de la experiencia, evitando saltos o cortes innecesarios.2 Renuncie a comunicar demasiados temas y a contar todo en detalle. Seleccione los contenidos que le interesa transmitir y elija hacerlo con la profundidad apropiada para interesar –y no aburrir– a sus visitantes. 3 Ordene los temas en función de la comprensión y la atención de sus públicos y, a menos que esté buscando enfatizar ciertos conceptos, no repita contenidos.4 Se puede basar en la información siguiente para aprender a construir un itinerario de la experiencia.")
         .row.justify-content-center.px-2(titulo="")
           p <strong>7. Diseñar lugares, relatos y demás elementos</strong>
           figure
-            img(src='@/assets/curso/tema2/img15.svg', alt="Imagen decorativa")
+            img(src='@/assets/curso/tema2/img15.svg', alt="1 Escoja los canales de promoción más efectivos para llegar a sus públicos objetivos.  2 Cuide el diseño, ya que este influye sobre su oferta, tanto para moldear las expectativas y motivaciones de los turistas como para crear valor antes y después de su visita. 3 Compare sus comunicaciones con las de sus competidores y asegúrese de que su posicionamiento en relación a ellos sea el que usted desea.  4 Informe sobre el camino, la accesibilidad, las temperaturas probables y las posibles complicaciones involucradas en su experiencia. Sugiera la vestimenta apropiada y detalle si su oferta es adecuada para niños, especificando su edad. 5 Evite el uso indiscriminado de fotografías retocadas o falseadas, pues generarán expectativas que no podrá cumplir después. 6 Determine el precio adecuado de su experiencia a partir de las definiciones en el paso 4. Recuerde que el monto que fije transmitirá información sobre lo que se puede esperar de su oferta. 7 Cree un sitio web, porque este medio es hoy un mínimo indispensable de la industria. También es aconsejable contar con un folleto, que servirá además para que sus visitantes recomienden su experiencia a otros. 8 Considere participar en metabuscadores, como, por ejemplo, TripAdvisor.")
         .row.justify-content-center.px-2(titulo="")
           p <strong>8. Implementar su experiencia</strong>
           .row.justify-content-center
             .col-lg-9
               figure
-                img(src='@/assets/curso/tema2/img16.svg', alt="Imagen decorativa")
+                img(src='@/assets/curso/tema2/img16.svg', alt="Preocúpese de cada detalle, recordando que estos pueden hacer la diferencia. 1 Seleccione a su personal, prestando especial atención a los guías, pues su calidad influirá muy significativamente en la satisfacción de sus visitantes. 2 Realice pruebas piloto. Asegúrese de que el público esté enterado de ello, para evitar que eventuales errores perjudiquen la imagen posterior de su oferta. 3 Explore la posibilidad de generar alianzas con otros proveedores. Concéntrese en lo que mejor le resulte y encargue a otros lo que a usted no le sale bien. 4 Puede comenzar a operar en forma normal cuando haya terminado de realizar los ajustes.")
         .row.justify-content-center.px-2(titulo="")
           .col-lg-6.order-lg-1.order-2
             p <strong>9. Implementar su plan de promoción</strong>
@@ -202,7 +202,7 @@
           h5 Figura 5.
           span Elementos importantes para la medición de impacto de los eventos
         figure(data-aos="zoom-in")
-          img(src='@/assets/curso/tema2/img19.svg', alt="Imagen decorativa")
+          img(src='@/assets/curso/tema2/img19.svg', alt="• Un “software” que ayude a establecer diferencias entre número de registros y número de asistentes finales. Estos datos servirán como punto de comparación frente a los costos que se debieron asumir desde la planeación. Empresas como “Eventbrite” o “Ticketea” proporcionan este tipo de servicio. • Realizar seguimiento a la implementación de mejoras es fundamental cuando la actividad se ha realizado con anterioridad.")
 
     p.mb-5(data-aos="fade-right") En el mismo proceso de sistematización de la medición de impacto de los eventos, se tiene la percepción de asistentes: apreciación subjetiva de los participantes; esta se puede hacer tomando en cuenta varios indicadores, como se presenta a continuación:
     
